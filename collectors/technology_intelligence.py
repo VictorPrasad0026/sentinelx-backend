@@ -176,17 +176,22 @@ def detect_technology(headers, html):
 
 
 
-    for name, keyword in fingerprints.items():
+    seen = set()
 
+    for name, keyword in fingerprints.items():
 
         if keyword in header_string or keyword in html:
 
+            if name not in seen:
 
-            technologies.append(name)
+                technologies.append({
+                    "name": name,
+                    "evidence": keyword
+                })
 
+                seen.add(name)
 
-
-    return list(set(technologies))
+    return technologies
 
 
 

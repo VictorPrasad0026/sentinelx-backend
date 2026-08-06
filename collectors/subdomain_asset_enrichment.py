@@ -5,7 +5,9 @@ import time
 
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+from collectors.infrastructure_intelligence import (
+    get_infrastructure_info
+)
 
 
 USER_AGENT = {
@@ -720,7 +722,67 @@ def calculate_risk(asset):
 
     findings = []
 
+        # =====================================
+    # Infrastructure Risk
+    # =====================================
 
+
+    infra = asset.get(
+        "infrastructure",
+        {}
+    )
+
+
+    ports = infra.get(
+        "ports",
+        {}
+    )
+
+
+
+    for port in ports.get(
+        "ports",
+        []
+    ):
+
+
+        if port.get(
+            "risk"
+        ) == "CRITICAL":
+
+
+            score += 25
+
+
+            findings.append({
+
+                "issue":
+                f"Critical service exposed: {port.get('service')} on port {port.get('port')}",
+
+                "severity":
+                "CRITICAL"
+
+            })
+
+
+
+        elif port.get(
+            "risk"
+        ) == "HIGH":
+
+
+            score += 15
+
+
+            findings.append({
+
+                "issue":
+                f"High risk service exposed: {port.get('service')}",
+
+                "severity":
+                "HIGH"
+
+            })
 
     host = asset["host"].lower()
 
@@ -953,6 +1015,7 @@ def enrich_subdomain(host):
 
         "http":{},
 
+        "infrastructure":{},
 
         "risk":{}
 
@@ -986,6 +1049,12 @@ def enrich_subdomain(host):
     # HTTP
 
     asset["http"] = get_http_info(
+        host
+    )
+    
+    # Infrastructure Intelligence
+
+    asset["infrastructure"] = get_infrastructure_info(
         host
     )
 

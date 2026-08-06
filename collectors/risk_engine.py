@@ -785,17 +785,13 @@ def analyze_technology(profile, findings):
     )
 
 
-    technologies=[
+    raw_techs = tech.get("technologies", [])
 
-        x.lower()
+    technologies = [
 
-        for x in tech.get(
+        (x["name"].lower() if isinstance(x, dict) else x.lower())
 
-            "technologies",
-
-            []
-
-        )
+        for x in raw_techs
 
     ]
 

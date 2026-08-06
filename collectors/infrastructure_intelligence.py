@@ -1,695 +1,134 @@
-
 """
-SentinelX Infrastructure Intelligence Engine v1.0
+SentinelX Infrastructure Intelligence Engine v3.0
 
-Collects:
-
-- IP Intelligence
-- ASN Information
-- Geo Location
-- Cloud Provider
-- Reverse DNS
-- CDN Detection
-- Open Ports
-- Service Fingerprinting
-- Exposure Risk Score
-
-Author:
-SentinelX ASM Platform
+Aggregates:
+- IP resolution
+- ASN + org + registry
+- GeoIP (country, city, coords, timezone)
+- Cloud provider detection
+- Reverse DNS + provider hint
+- CDN detection
+- Port scan + service banners
+- Exposure score
 """
-
 
 import socket
-import subprocess
 import json
-from datetime import datetime
+from datetime import datetime, timezone
+
+from collectors.asn_intelligence import get_asn_intelligence
+from collectors.geoip_intelligence import get_geoip_intelligence
+from collectors.reverse_dns import get_reverse_dns
+from collectors.cdn_detection import detect_cdn
+from collectors.cloud_intelligence import detect_cloud_provider
+from collectors.port_intelligence import get_port_intelligence
 
 
-# ==========================================
-# IP RESOLUTION
-# ==========================================
-
-def resolve_ip(domain):
-
+def resolve_ip(target):
     try:
-
-        return socket.gethostbyname(domain)
-
+        return socket.gethostbyname(target)
     except Exception:
-
         return None
 
 
-
-
-# ==========================================
-# ASN INTELLIGENCE
-# ==========================================
-
-def get_asn_info(ip):
-
-
-    try:
-
-        # Placeholder ASN enrichment
-        # Future:
-        # MaxMind ASN DB
-        # RIPE API
-        # BGPView API
-
-
-        known_clouds = {
-
-
-            "3.": {
-
-                "asn":"16509",
-                "description":
-                "AMAZON-02 - Amazon.com, Inc., US",
-                "network":
-                "AMAZON-AWS"
-
-            },
-
-
-            "13.": {
-
-                "asn":"16509",
-                "description":
-                "AMAZON AWS",
-                "network":
-                "AWS"
-
-            }
-
-        }
-
-
-
-        for prefix,data in known_clouds.items():
-
-            if ip.startswith(prefix):
-
-                return data
-
-
-
-        return {
-
-
-            "asn":
-            "UNKNOWN",
-
-            "asn_description":
-            "Unknown",
-
-            "network":
-            "Unknown"
-
-        }
-
-
-
-    except Exception:
-
-
-        return {
-
-            "asn":"UNKNOWN"
-
-        }
-
-
-
-
-# ==========================================
-# GEO IP
-# ==========================================
-
-def get_geoip(ip):
-
-
-    """
-    Enterprise version:
-
-    Integrate:
-    - MaxMind GeoLite2
-    - IPinfo
-    - DB-IP
-
-    """
-
-    return {
-
-
-        "country":None,
-
-        "city":None,
-
-        "latitude":None,
-
-        "longitude":None
-
-
-    }
-
-
-
-
-# ==========================================
-# CLOUD DETECTION
-# ==========================================
-
-def detect_cloud(ip, reverse_dns):
-
-
-    text = (
-
-        str(ip)
-        +
-        str(reverse_dns)
-
-    ).lower()
-
-
-
-    if "amazonaws" in text or ip.startswith("3.") or ip.startswith("13."):
-
-        return "AWS"
-
-
-
-    if "azure" in text:
-
-        return "Azure"
-
-
-
-    if "google" in text:
-
-        return "Google Cloud"
-
-
-
-    return "Unknown"
-
-
-
-
-
-# ==========================================
-# REVERSE DNS
-# ==========================================
-
-def reverse_dns_lookup(ip):
-
-
-    try:
-
-        return socket.gethostbyaddr(ip)[0]
-
-
-    except Exception:
-
-
-        return None
-
-
-
-
-
-# ==========================================
-# CDN DETECTION
-# ==========================================
-
-def detect_cdn(domain):
-
-
-    """
-    Future integrations:
-
-    Cloudflare
-    Akamai
-    Fastly
-    CloudFront
-    Imperva
-
-    """
-
-
-    try:
-
-
-        result = socket.gethostbyname_ex(domain)
-
-
-        cname = str(result).lower()
-
-
-
-        cdns = {
-
-
-            "cloudflare":
-            "Cloudflare",
-
-
-            "cloudfront":
-            "AWS CloudFront",
-
-
-            "akamai":
-            "Akamai",
-
-
-            "fastly":
-            "Fastly"
-
-
-        }
-
-
-
-        for key,value in cdns.items():
-
-
-            if key in cname:
-
-
-                return {
-
-
-                    "detected":True,
-
-                    "provider":value
-
-                }
-
-
-
-    except Exception:
-
-        pass
-
-
-
-    return {
-
-
-        "detected":False,
-
-        "provider":None
-
-    }
-
-
-
-
-
-
-
-# ==========================================
-# PORT SCANNER
-# ==========================================
-
-COMMON_PORTS = {
-
-
-    21:"FTP",
-
-    22:"SSH",
-
-    25:"SMTP",
-
-    53:"DNS",
-
-    80:"HTTP",
-
-    110:"POP3",
-
-    143:"IMAP",
-
-    443:"HTTPS",
-
-    3306:"MYSQL",
-
-    3389:"RDP",
-
-    8080:"HTTP-ALT"
-
-
-}
-
-
-
-
-
-def scan_ports(ip):
-
-
-    results=[]
-
-
-
-    for port,service in COMMON_PORTS.items():
-
-
-        try:
-
-
-            sock=socket.socket(
-
-                socket.AF_INET,
-
-                socket.SOCK_STREAM
-
-            )
-
-
-            sock.settimeout(0.5)
-
-
-
-            result=sock.connect_ex(
-
-                (
-                    ip,
-                    port
-                )
-
-            )
-
-
-            sock.close()
-
-
-
-            if result==0:
-
-
-                results.append({
-
-                    "port":port,
-
-                    "service":service,
-
-                    "state":"OPEN"
-
-                })
-
-
-        except Exception:
-
-
-            pass
-
-
-
-    return results
-
-
-
-
-
-
-
-
-# ==========================================
-# SERVICE BANNER
-# ==========================================
-
-def get_service_banner(ip,port):
-
-
-    try:
-
-
-        sock=socket.socket()
-
-        sock.settimeout(2)
-
-
-        sock.connect(
-
-            (
-                ip,
-                port
-            )
-
-        )
-
-
-        banner=sock.recv(1024)
-
-
-        sock.close()
-
-
-
-        return banner.decode(
-
-            errors="ignore"
-
-        ).strip()
-
-
-
-    except Exception:
-
-
-        return None
-
-
-
-
-
-
-
-
-# ==========================================
-# EXPOSURE SCORE
-# ==========================================
-
-def calculate_exposure(open_ports, cloud):
-
-
-    score=0
-
-
-
-    for item in open_ports:
-
-
-        port=item["port"]
-
-
-
-        if port in [21,22,3389]:
-
-            score+=10
-
-
-        elif port in [80,443]:
-
-            score+=5
-
-
-
-    if cloud!="Unknown":
-
-        score+=5
-
-
-
-    return min(score,100)
-
-
-
-
-
-
-
-# ==========================================
-# MAIN ENGINE
-# ==========================================
-
-def get_infrastructure_info(domain):
-
+def calculate_exposure(port_data):
+    score = 0
+    for port in port_data.get("ports", []):
+        if port.get("state") != "OPEN":
+            continue
+        risk = port.get("risk", "LOW")
+        if risk == "CRITICAL":
+            score += 25
+        elif risk == "HIGH":
+            score += 15
+        elif risk == "MEDIUM":
+            score += 8
+        else:
+            score += 2
+    return min(score, 100)
+
+
+def get_infrastructure_info(target):
 
     print("[+] Infrastructure Intelligence")
 
-
-
-    result={
-
-
-        "domain":domain,
-
-
-        "timestamp":
-
-        datetime.utcnow().isoformat()+"Z",
-
-
-        "ip":None,
-
-
-        "asn":{},
-
-
-        "geoip":{},
-
-
-        "cloud_provider":None,
-
-
-        "reverse_dns":None,
-
-
-        "cdn":{},
-
-
-        "open_ports":[],
-
-
-        "service_banners":[],
-
-
-        "exposure_score":0
-
-
+    result = {
+        "target": target,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "ip": None,
+        "asn": {},
+        "geoip": {},
+        "cloud": {},
+        "reverse_dns": {},
+        "cdn": {},
+        "ports": {},
+        "exposure_score": 0
     }
 
-
-
-    ip=resolve_ip(domain)
-
-
-
+    ip = resolve_ip(target)
     if not ip:
-
-
-        result["error"]="IP resolution failed"
-
+        result["error"] = "DNS resolution failed"
         return result
 
+    result["ip"] = ip
 
+    # ASN
+    try:
+        asn_data = get_asn_intelligence(ip)
+        result["asn"] = asn_data
+    except Exception as e:
+        result["asn"] = {"error": str(e)}
 
-    result["ip"]=ip
+    # GeoIP
+    try:
+        result["geoip"] = get_geoip_intelligence(ip)
+    except Exception as e:
+        result["geoip"] = {"error": str(e)}
 
+    # Reverse DNS
+    try:
+        result["reverse_dns"] = get_reverse_dns(ip)
+    except Exception as e:
+        result["reverse_dns"] = {"error": str(e)}
 
+    # Cloud — feed ASN description + reverse DNS hostname
+    try:
+        asn_desc = result["asn"].get("description") if isinstance(result["asn"], dict) else None
+        rdns_host = None
+        if isinstance(result["reverse_dns"], dict):
+            rdns = result["reverse_dns"].get("reverse_dns", {})
+            rdns_host = rdns.get("hostname") if isinstance(rdns, dict) else None
 
-    result["asn"]=get_asn_info(ip)
-
-
-
-    result["geoip"]=get_geoip(ip)
-
-
-
-    result["reverse_dns"]=reverse_dns_lookup(ip)
-
-
-
-    result["cloud_provider"]=detect_cloud(
-
-        ip,
-
-        result["reverse_dns"]
-
-    )
-
-
-
-    result["cdn"]=detect_cdn(domain)
-
-
-
-    ports=scan_ports(ip)
-
-
-
-    result["open_ports"]=ports
-
-
-
-
-    for port in ports:
-
-
-        banner=get_service_banner(
-
-            ip,
-
-            port["port"]
-
+        result["cloud"] = detect_cloud_provider(
+            asn=asn_desc,
+            reverse_dns=rdns_host,
+            hostname=target
         )
+    except Exception as e:
+        result["cloud"] = {"error": str(e)}
 
+    # CDN
+    try:
+        result["cdn"] = detect_cdn(target)
+    except Exception as e:
+        result["cdn"] = {"error": str(e)}
 
-        if banner:
+    # Ports
+    try:
+        ports = get_port_intelligence(target)
+        if isinstance(ports, str):
+            ports = json.loads(ports)
+        result["ports"] = ports
+    except Exception as e:
+        result["ports"] = {"error": str(e)}
 
-
-            result["service_banners"].append({
-
-                "port":port["port"],
-
-                "banner":banner
-
-            })
-
-
-
-
-    result["exposure_score"]=calculate_exposure(
-
-        ports,
-
-        result["cloud_provider"]
-
-    )
-
-
+    # Exposure score
+    result["exposure_score"] = calculate_exposure(result["ports"])
 
     return result
 
 
-
-
-
-
-
-# ==========================================
-# TEST
-# ==========================================
-
-
-if __name__=="__main__":
-
-
-    domain=input(
-
-        "Domain: "
-
-    ).strip()
-
-
-
-    data=get_infrastructure_info(
-
-        domain
-
-    )
-
-
-
-    print(
-
-        json.dumps(
-
-            data,
-
-            indent=4
-
-        )
-
-    )
+if __name__ == "__main__":
+    domain = input("Domain/IP: ")
+    import json as _json
+    print(_json.dumps(get_infrastructure_info(domain), indent=4))

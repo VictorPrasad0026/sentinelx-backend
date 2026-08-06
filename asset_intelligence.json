@@ -1,0 +1,333 @@
+{
+    "host": "cgu-odisha.ac.in",
+    "timestamp": "2026-07-24T09:13:25.605392+00:00",
+    "dns": {
+        "host": "cgu-odisha.ac.in",
+        "A": [
+            "3.108.140.28"
+        ],
+        "AAAA": [],
+        "CNAME": []
+    },
+    "ssl": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-07-24T09:13:25.623988",
+        "ssl": {
+            "raw_certificate": {
+                "subject": [
+                    [
+                        [
+                            "commonName",
+                            "cgu-odisha.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "US"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Let's Encrypt"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "YR1"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "05767266B74F2732D6AA386FBF62D716812B",
+                "notBefore": "Jul 14 06:53:05 2026 GMT",
+                "notAfter": "Oct 12 06:53:04 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "cgu-odisha.ac.in"
+                    ]
+                ],
+                "caIssuers": [
+                    "http://yr1.i.lencr.org/"
+                ],
+                "crlDistributionPoints": [
+                    "http://yr1.c.lencr.org/44.crl"
+                ]
+            },
+            "issuer": {
+                "countryName": "US",
+                "organizationName": "Let's Encrypt",
+                "commonName": "YR1"
+            },
+            "subject": {
+                "commonName": "cgu-odisha.ac.in"
+            },
+            "valid_from": "Jul 14 06:53:05 2026 GMT",
+            "valid_until": "Oct 12 06:53:04 2026 GMT",
+            "days_remaining": 79,
+            "tls_version": "TLSv1.3",
+            "security_checks": {
+                "tls_secure": true,
+                "certificate_valid": true
+            },
+            "status": "VALID"
+        }
+    },
+    "http": {
+        "reachable": true,
+        "url": "https://cgu-odisha.ac.in/",
+        "status_code": 200,
+        "response_time": 0.934,
+        "server": "Web",
+        "powered_by": null,
+        "technologies": [
+            {
+                "name": "WordPress",
+                "evidence": "wp-content"
+            },
+            {
+                "name": "Bootstrap",
+                "evidence": "bootstrap"
+            }
+        ],
+        "security_headers": {
+            "strict-transport-security": {
+                "present": false,
+                "value": null
+            },
+            "content-security-policy": {
+                "present": false,
+                "value": null
+            },
+            "x-frame-options": {
+                "present": false,
+                "value": null
+            },
+            "x-content-type-options": {
+                "present": false,
+                "value": null
+            },
+            "referrer-policy": {
+                "present": false,
+                "value": null
+            },
+            "permissions-policy": {
+                "present": false,
+                "value": null
+            }
+        },
+        "csp_raw": null,
+        "cookies": [
+            {
+                "name": "PHPSESSID",
+                "secure": false,
+                "httponly": false,
+                "samesite": null
+            }
+        ],
+        "waf": {
+            "detected": false,
+            "provider": null
+        },
+        "headers": {
+            "Date": "Fri, 24 Jul 2026 09:13:26 GMT",
+            "Server": "Web",
+            "Set-Cookie": "PHPSESSID=8bgo4n0ooa9p64lov5j760je6r; path=/",
+            "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Pragma": "no-cache",
+            "Link": "<https://cgu-odisha.ac.in/wp-json/>; rel=\"https://api.w.org/\", <https://cgu-odisha.ac.in/wp-json/wp/v2/pages/8>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://cgu-odisha.ac.in/>; rel=shortlink",
+            "Vary": "Accept-Encoding",
+            "Content-Encoding": "gzip",
+            "Keep-Alive": "timeout=5, max=100",
+            "Connection": "Keep-Alive",
+            "Transfer-Encoding": "chunked",
+            "Content-Type": "text/html; charset=UTF-8"
+        }
+    },
+    "infrastructure": {
+        "target": "cgu-odisha.ac.in",
+        "timestamp": "2026-07-24T09:13:26.644097+00:00",
+        "ip": "3.108.140.28",
+        "asn": {
+            "target": "3.108.140.28",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-07-24T09:13:26.652612+00:00",
+            "asn": "16509",
+            "description": "AMAZON-02 - Amazon.com, Inc., US",
+            "network": "AMAZON-BOM",
+            "country": null,
+            "registry": "arin",
+            "cloud_provider": "AWS"
+        },
+        "geoip": {
+            "target": "3.108.140.28",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-07-24T09:13:27.462197+00:00",
+            "geoip": {
+                "country": "India",
+                "country_code": "IN",
+                "city": "Mumbai",
+                "latitude": 19.0748,
+                "longitude": 72.8856,
+                "timezone": "Asia/Kolkata"
+            }
+        },
+        "cloud": {
+            "provider": "AWS",
+            "confidence": "HIGH",
+            "evidence": [
+                "amazon"
+            ]
+        },
+        "reverse_dns": {
+            "target": "3.108.140.28",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-07-24T09:13:27.463229+00:00",
+            "reverse_dns": {
+                "hostname": "ec2-3-108-140-28.ap-south-1.compute.amazonaws.com",
+                "provider_hint": "AWS",
+                "status": "FOUND"
+            }
+        },
+        "cdn": {
+            "detected": true,
+            "provider": "Cloudflare",
+            "confidence": "HIGH",
+            "evidence": [
+                "Cloudflare nameserver detected",
+                "Cloudflare CNAME detected"
+            ]
+        },
+        "ports": {
+            "host": "cgu-odisha.ac.in",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-07-24T09:13:46.131508+00:00",
+            "ports": [
+                {
+                    "port": 21,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "FTP",
+                    "risk": "HIGH",
+                    "banner": null
+                },
+                {
+                    "port": 80,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "HTTP",
+                    "risk": "LOW",
+                    "banner": "HTTP/1.1 200 OK\r Date: Fri, 24 Jul 2026 09:13:33 GMT\r Server: Web\r X-Content-Type-Options: nosniff\r X-Frame-Options: SAMEORIGIN\r X-XSS-Protection: 1; mode=block\r Referrer-Policy: no-referrer-when-down"
+                },
+                {
+                    "port": 443,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "GIT-HTTPS",
+                    "risk": "LOW",
+                    "banner": "HTTP/1.1 400 Bad Request\r Date: Fri, 24 Jul 2026 09:13:33 GMT\r Server: Web\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DTD H"
+                },
+                {
+                    "port": 1723,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "PPTP",
+                    "risk": "HIGH",
+                    "banner": null
+                },
+                {
+                    "port": 5432,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "POSTGRESQL",
+                    "risk": "CRITICAL",
+                    "banner": null
+                }
+            ],
+            "summary": {
+                "total_scanned": 243,
+                "open": 5
+            },
+            "exposure_score": 59,
+            "findings": [
+                {
+                    "category": "Infrastructure",
+                    "issue": "FTP exposed on port 21",
+                    "severity": "HIGH",
+                    "port": 21,
+                    "recommendation": "Restrict internet exposure using firewall or VPN"
+                },
+                {
+                    "category": "Infrastructure",
+                    "issue": "PPTP exposed on port 1723",
+                    "severity": "HIGH",
+                    "port": 1723,
+                    "recommendation": "Restrict internet exposure using firewall or VPN"
+                },
+                {
+                    "category": "Infrastructure",
+                    "issue": "POSTGRESQL exposed on port 5432",
+                    "severity": "CRITICAL",
+                    "port": 5432,
+                    "recommendation": "Restrict internet exposure using firewall or VPN"
+                }
+            ],
+            "scan_time": 13.13
+        },
+        "exposure_score": 59
+    },
+    "risk": {
+        "score": 95,
+        "severity": "CRITICAL",
+        "findings": [
+            {
+                "category": "Infrastructure",
+                "issue": "High risk service exposed FTP on port 21",
+                "severity": "HIGH",
+                "port": 21,
+                "recommendation": "Restrict access using firewall/VPN"
+            },
+            {
+                "category": "Infrastructure",
+                "issue": "High risk service exposed PPTP on port 1723",
+                "severity": "HIGH",
+                "port": 1723,
+                "recommendation": "Restrict access using firewall/VPN"
+            },
+            {
+                "category": "Infrastructure",
+                "issue": "Critical exposed service POSTGRESQL on port 5432",
+                "severity": "CRITICAL",
+                "port": 5432,
+                "recommendation": "Restrict external access immediately"
+            },
+            {
+                "category": "Infrastructure",
+                "issue": "High infrastructure exposure score: 59",
+                "severity": "HIGH",
+                "recommendation": "Review exposed services"
+            },
+            {
+                "category": "Infrastructure",
+                "issue": "Cloud hosted asset detected: AWS",
+                "severity": "INFO"
+            },
+            {
+                "category": "Web Security",
+                "issue": "Missing HSTS header",
+                "severity": "LOW"
+            },
+            {
+                "category": "Web Security",
+                "issue": "Missing Content Security Policy",
+                "severity": "LOW"
+            }
+        ]
+    }
+}

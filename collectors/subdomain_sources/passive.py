@@ -10,7 +10,7 @@ from collectors.subdomain_sources.crtsh import (
 try:
 
     from collectors.subdomain_sources.certspotter import (
-        get_certspotter_subdomains
+        get_certspotter as get_certspotter_subdomains
     )
 
 except Exception:
