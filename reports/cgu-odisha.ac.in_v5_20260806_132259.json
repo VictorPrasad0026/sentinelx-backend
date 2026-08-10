@@ -1,0 +1,2283 @@
+{
+    "domain": "cgu-odisha.ac.in",
+    "engine": "SentinelX V5 Intelligence Engine",
+    "generated_at": "2026-08-06T07:52:13.608216+00:00",
+    "historical_comparison": {
+        "status": "COMPARISON_COMPLETE",
+        "scan_count": 2,
+        "previous_scan": "20260806_075206",
+        "risk_score_delta": 0,
+        "risk_trend": "STABLE",
+        "long_term_trend": "INSUFFICIENT_DATA",
+        "risk_history": [
+            {
+                "timestamp": "20260806_075206",
+                "risk_score": 62
+            },
+            {
+                "timestamp": "20260806_075213",
+                "risk_score": 62
+            }
+        ],
+        "new_assets": [
+            "admission.cgu-odisha.ac.in",
+            "aic.cgu-odisha.ac.in",
+            "click.info.cgu-odisha.ac.in",
+            "cloud.info.cgu-odisha.ac.in",
+            "crm.cgu-odisha.ac.in",
+            "exam.cgu-odisha.ac.in",
+            "image.info.cgu-odisha.ac.in",
+            "pis.cgu-odisha.ac.in",
+            "recruitment.cgu-odisha.ac.in",
+            "stcw.cgu-odisha.ac.in",
+            "tbi.cgu-odisha.ac.in",
+            "view.info.cgu-odisha.ac.in"
+        ],
+        "removed_assets": [],
+        "changed_assets": [],
+        "new_findings": [],
+        "resolved_findings": [],
+        "whois_changes": {
+            "registrar": {
+                "from": null,
+                "to": "ERNET India"
+            },
+            "expires": {
+                "from": null,
+                "to": "2030-03-23 16:32:39.567000+00:00"
+            },
+            "nameservers": {
+                "added": [
+                    "howard.ns.cloudflare.com",
+                    "macy.ns.cloudflare.com"
+                ],
+                "removed": []
+            }
+        },
+        "summary": "Risk STABLE by 0 points. 12 new assets. 0 removed. 0 changed. 0 new findings, 0 resolved."
+    },
+    "tls_grades": {
+        "asset_grades": {
+            "cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": "TLS_AES_256_GCM_SHA384",
+                "cipher_bits": 256,
+                "days_remaining": 66,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Oct 12 06:53:04 2026 GMT"
+            },
+            "admission.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Oct 30 21:12:07 2026 GMT"
+            },
+            "aic.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Oct  1 14:25:18 2026 GMT"
+            },
+            "click.info.cgu-odisha.ac.in": {
+                "grade": "A+",
+                "score": 100,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": true,
+                "issues": [],
+                "issuer": "DigiCert Inc",
+                "valid_until": "Oct  2 23:59:59 2026 GMT"
+            },
+            "cloud.info.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "DigiCert Inc",
+                "valid_until": "Oct  2 23:59:59 2026 GMT"
+            },
+            "crm.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Sep 14 07:42:15 2026 GMT"
+            },
+            "exam.cgu-odisha.ac.in": {
+                "grade": "F",
+                "score": 30,
+                "tls_version": "",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Certificate validation failed",
+                    "Missing HSTS header"
+                ],
+                "issuer": null,
+                "valid_until": null
+            },
+            "image.info.cgu-odisha.ac.in": {
+                "grade": "A+",
+                "score": 100,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": true,
+                "issues": [],
+                "issuer": "Amazon",
+                "valid_until": "Oct 23 23:59:59 2026 GMT"
+            },
+            "pis.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Oct 23 11:56:39 2026 GMT"
+            },
+            "recruitment.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Sep 16 02:51:44 2026 GMT"
+            },
+            "stcw.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Sep 18 22:53:29 2026 GMT"
+            },
+            "tbi.cgu-odisha.ac.in": {
+                "grade": "B",
+                "score": 90,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": false,
+                "issues": [
+                    "Missing HSTS header"
+                ],
+                "issuer": "Let's Encrypt",
+                "valid_until": "Oct  1 14:25:31 2026 GMT"
+            },
+            "view.info.cgu-odisha.ac.in": {
+                "grade": "A+",
+                "score": 100,
+                "tls_version": "TLSv1.3",
+                "cipher_suite": null,
+                "cipher_bits": 0,
+                "days_remaining": null,
+                "wildcard": false,
+                "self_signed": false,
+                "hsts_present": true,
+                "issues": [],
+                "issuer": "DigiCert Inc",
+                "valid_until": "Oct  2 23:59:59 2026 GMT"
+            }
+        },
+        "grade_summary": {
+            "B": 9,
+            "A+": 3,
+            "F": 1
+        },
+        "failed_assets": [
+            "exam.cgu-odisha.ac.in"
+        ],
+        "low_grade_assets": [],
+        "overall_grade": "A+"
+    },
+    "ct_timeline": [
+        {
+            "error": "HTTP Error 502: Bad Gateway"
+        }
+    ],
+    "vulnerability_prioritization": {
+        "note": "Disabled \u2014 pass enable_vuln_intel=True"
+    },
+    "login_detection": [
+        {
+            "host": "exam.cgu-odisha.ac.in",
+            "login_pages": [],
+            "login_count": 0,
+            "panels_found": [],
+            "default_cred_risk_count": 0,
+            "findings": []
+        },
+        {
+            "host": "admission.cgu-odisha.ac.in",
+            "login_pages": [],
+            "login_count": 0,
+            "panels_found": [],
+            "default_cred_risk_count": 0,
+            "findings": []
+        },
+        {
+            "host": "crm.cgu-odisha.ac.in",
+            "login_pages": [],
+            "login_count": 0,
+            "panels_found": [],
+            "default_cred_risk_count": 0,
+            "findings": []
+        },
+        {
+            "host": "aic.cgu-odisha.ac.in",
+            "login_pages": [],
+            "login_count": 0,
+            "panels_found": [],
+            "default_cred_risk_count": 0,
+            "findings": []
+        },
+        {
+            "host": "pis.cgu-odisha.ac.in",
+            "login_pages": [],
+            "login_count": 0,
+            "panels_found": [],
+            "default_cred_risk_count": 0,
+            "findings": []
+        },
+        {
+            "host": "recruitment.cgu-odisha.ac.in",
+            "login_pages": [],
+            "login_count": 0,
+            "panels_found": [],
+            "default_cred_risk_count": 0,
+            "findings": []
+        },
+        {
+            "host": "stcw.cgu-odisha.ac.in",
+            "login_pages": [
+                {
+                    "url": "https://stcw.cgu-odisha.ac.in/login",
+                    "path": "/login",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": null,
+                    "has_password_field": true,
+                    "form_action": "https://stcw.cgu-odisha.ac.in/login",
+                    "default_creds_risk": false,
+                    "known_defaults": [],
+                    "severity": "HIGH"
+                },
+                {
+                    "url": "https://stcw.cgu-odisha.ac.in/user/login",
+                    "path": "/user/login",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": null,
+                    "has_password_field": true,
+                    "form_action": "https://stcw.cgu-odisha.ac.in/user/login",
+                    "default_creds_risk": false,
+                    "known_defaults": [],
+                    "severity": "HIGH"
+                },
+                {
+                    "url": "https://stcw.cgu-odisha.ac.in/admin/login",
+                    "path": "/admin/login",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": null,
+                    "has_password_field": true,
+                    "form_action": "https://stcw.cgu-odisha.ac.in/user/login/ins/czhweGNqcXJieklkYVVpZkc1OWZ2QT09",
+                    "default_creds_risk": false,
+                    "known_defaults": [],
+                    "severity": "HIGH"
+                },
+                {
+                    "url": "https://stcw.cgu-odisha.ac.in/admin",
+                    "path": "/admin",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": null,
+                    "has_password_field": true,
+                    "form_action": "https://stcw.cgu-odisha.ac.in/user/login/ins/czhweGNqcXJieklkYVVpZkc1OWZ2QT09",
+                    "default_creds_risk": false,
+                    "known_defaults": [],
+                    "severity": "HIGH"
+                },
+                {
+                    "url": "https://stcw.cgu-odisha.ac.in/admin/console",
+                    "path": "/admin/console",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": null,
+                    "has_password_field": true,
+                    "form_action": "https://stcw.cgu-odisha.ac.in/user/login/ins/czhweGNqcXJieklkYVVpZkc1OWZ2QT09",
+                    "default_creds_risk": false,
+                    "known_defaults": [],
+                    "severity": "HIGH"
+                }
+            ],
+            "login_count": 5,
+            "panels_found": [],
+            "default_cred_risk_count": 0,
+            "findings": [
+                {
+                    "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/login",
+                    "severity": "HIGH",
+                    "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+                },
+                {
+                    "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/user/login",
+                    "severity": "HIGH",
+                    "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+                },
+                {
+                    "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/admin/login",
+                    "severity": "HIGH",
+                    "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+                },
+                {
+                    "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/admin",
+                    "severity": "HIGH",
+                    "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+                },
+                {
+                    "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/admin/console",
+                    "severity": "HIGH",
+                    "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+                }
+            ]
+        },
+        {
+            "host": "tbi.cgu-odisha.ac.in",
+            "login_pages": [
+                {
+                    "url": "https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "path": "/wp-login.php",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": "WordPress",
+                    "has_password_field": true,
+                    "form_action": "https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "default_creds_risk": true,
+                    "known_defaults": [
+                        "admin/admin",
+                        "admin/password"
+                    ],
+                    "severity": "CRITICAL"
+                },
+                {
+                    "url": "https://tbi.cgu-odisha.ac.in/wp-admin/",
+                    "path": "/wp-admin/",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": "WordPress",
+                    "has_password_field": true,
+                    "form_action": "https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "default_creds_risk": true,
+                    "known_defaults": [
+                        "admin/admin",
+                        "admin/password"
+                    ],
+                    "severity": "CRITICAL"
+                },
+                {
+                    "url": "https://tbi.cgu-odisha.ac.in/login",
+                    "path": "/login",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": "WordPress",
+                    "has_password_field": true,
+                    "form_action": "https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "default_creds_risk": true,
+                    "known_defaults": [
+                        "admin/admin",
+                        "admin/password"
+                    ],
+                    "severity": "CRITICAL"
+                },
+                {
+                    "url": "https://tbi.cgu-odisha.ac.in/wp-admin",
+                    "path": "/wp-admin",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": "WordPress",
+                    "has_password_field": true,
+                    "form_action": "https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "default_creds_risk": true,
+                    "known_defaults": [
+                        "admin/admin",
+                        "admin/password"
+                    ],
+                    "severity": "CRITICAL"
+                },
+                {
+                    "url": "https://tbi.cgu-odisha.ac.in/admin",
+                    "path": "/admin",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": "WordPress",
+                    "has_password_field": true,
+                    "form_action": "https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "default_creds_risk": true,
+                    "known_defaults": [
+                        "admin/admin",
+                        "admin/password"
+                    ],
+                    "severity": "CRITICAL"
+                },
+                {
+                    "url": "https://tbi.cgu-odisha.ac.in/dashboard",
+                    "path": "/dashboard",
+                    "status": 200,
+                    "auth_type": "FORM",
+                    "panel_type": null,
+                    "has_password_field": true,
+                    "form_action": null,
+                    "default_creds_risk": false,
+                    "known_defaults": [],
+                    "severity": "HIGH"
+                }
+            ],
+            "login_count": 6,
+            "panels_found": [
+                "WordPress"
+            ],
+            "default_cred_risk_count": 5,
+            "findings": [
+                {
+                    "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "severity": "CRITICAL",
+                    "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+                },
+                {
+                    "issue": "Known default credentials exist for WordPress",
+                    "severity": "CRITICAL",
+                    "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+                    "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+                },
+                {
+                    "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/wp-admin/",
+                    "severity": "CRITICAL",
+                    "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+                },
+                {
+                    "issue": "Known default credentials exist for WordPress",
+                    "severity": "CRITICAL",
+                    "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+                    "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+                },
+                {
+                    "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/login",
+                    "severity": "CRITICAL",
+                    "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+                },
+                {
+                    "issue": "Known default credentials exist for WordPress",
+                    "severity": "CRITICAL",
+                    "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+                    "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+                },
+                {
+                    "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/wp-admin",
+                    "severity": "CRITICAL",
+                    "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+                },
+                {
+                    "issue": "Known default credentials exist for WordPress",
+                    "severity": "CRITICAL",
+                    "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+                    "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+                },
+                {
+                    "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/dashboard",
+                    "severity": "HIGH",
+                    "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+                },
+                {
+                    "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/admin",
+                    "severity": "CRITICAL",
+                    "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+                },
+                {
+                    "issue": "Known default credentials exist for WordPress",
+                    "severity": "CRITICAL",
+                    "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+                    "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+                }
+            ]
+        }
+    ],
+    "secrets_exposure": [
+        {
+            "host": "exam.cgu-odisha.ac.in",
+            "files_exposed": [],
+            "critical_count": 0,
+            "total_exposed": 0,
+            "secrets_found": false,
+            "secrets_count": 0,
+            "findings": []
+        },
+        {
+            "host": "admission.cgu-odisha.ac.in",
+            "files_exposed": [],
+            "critical_count": 0,
+            "total_exposed": 0,
+            "secrets_found": false,
+            "secrets_count": 0,
+            "findings": []
+        },
+        {
+            "host": "crm.cgu-odisha.ac.in",
+            "files_exposed": [],
+            "critical_count": 0,
+            "total_exposed": 0,
+            "secrets_found": false,
+            "secrets_count": 0,
+            "findings": []
+        },
+        {
+            "host": "aic.cgu-odisha.ac.in",
+            "files_exposed": [
+                {
+                    "url": "https://aic.cgu-odisha.ac.in/robots.txt",
+                    "path": "/robots.txt",
+                    "status": 200,
+                    "size": 121,
+                    "severity": "LOW",
+                    "description": "robots.txt \u2014 check for sensitive paths",
+                    "secrets_keys": [],
+                    "robots_sensitive_paths": [
+                        "/wp-admin/admin-ajax.php"
+                    ],
+                    "buckets_mentioned": [],
+                    "body_preview": "User-agent: * Disallow: /wp-admin/ Allow: /wp-admin/admin-ajax.php  Sitemap: https://aic.cgu-odisha.ac.in/wp-sitemap.xml"
+                },
+                {
+                    "url": "https://aic.cgu-odisha.ac.in/sitemap.xml",
+                    "path": "/sitemap.xml",
+                    "status": 200,
+                    "size": 843,
+                    "severity": "LOW",
+                    "description": "Sitemap reveals URL structure",
+                    "secrets_keys": [],
+                    "robots_sensitive_paths": [],
+                    "buckets_mentioned": [],
+                    "body_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-stylesheet type=\"text/xsl\" href=\"https://aic.cgu-odisha.ac.in/wp-sitemap-index.xsl\" ?> <sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><sitemap><loc>https://aic.cgu-odisha.ac.in/wp-sitemap-posts-post-1.xml</loc></sitemap><sitemap><loc>ht"
+                }
+            ],
+            "critical_count": 0,
+            "total_exposed": 2,
+            "secrets_found": false,
+            "secrets_count": 0,
+            "findings": [
+                {
+                    "issue": "Sensitive file exposed: /robots.txt",
+                    "severity": "LOW",
+                    "evidence": "https://aic.cgu-odisha.ac.in/robots.txt",
+                    "secrets": []
+                },
+                {
+                    "issue": "Sensitive file exposed: /sitemap.xml",
+                    "severity": "LOW",
+                    "evidence": "https://aic.cgu-odisha.ac.in/sitemap.xml",
+                    "secrets": []
+                }
+            ]
+        },
+        {
+            "host": "pis.cgu-odisha.ac.in",
+            "files_exposed": [],
+            "critical_count": 0,
+            "total_exposed": 0,
+            "secrets_found": false,
+            "secrets_count": 0,
+            "findings": []
+        }
+    ],
+    "public_buckets": [],
+    "github_leaks": [
+        {
+            "note": "Disabled \u2014 pass enable_github=True to enable (rate limited)"
+        }
+    ],
+    "passive_dns": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:52:59.984148+00:00",
+        "historical_subdomains": [
+            "admission.cgu-odisha.ac.in",
+            "aic.cgu-odisha.ac.in",
+            "click.info.cgu-odisha.ac.in",
+            "cloud.info.cgu-odisha.ac.in",
+            "crm.cgu-odisha.ac.in",
+            "exam.cgu-odisha.ac.in",
+            "image.info.cgu-odisha.ac.in",
+            "pis.cgu-odisha.ac.in",
+            "recruitment.cgu-odisha.ac.in",
+            "stcw.cgu-odisha.ac.in",
+            "tbi.cgu-odisha.ac.in",
+            "view.info.cgu-odisha.ac.in"
+        ],
+        "historical_sub_count": 12,
+        "ip_history": [],
+        "infrastructure_changes": [],
+        "ct_timeline": [],
+        "sources": [
+            "HackerTarget",
+            "CIRCL.lu",
+            "crt.sh CT logs",
+            "RapidDNS"
+        ],
+        "findings": [
+            {
+                "issue": "Historical subdomain discovered: admission.cgu-odisha.ac.in (may still be accessible)",
+                "severity": "MEDIUM",
+                "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+            },
+            {
+                "issue": "Historical subdomain discovered: aic.cgu-odisha.ac.in (may still be accessible)",
+                "severity": "MEDIUM",
+                "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+            },
+            {
+                "issue": "Historical subdomain discovered: click.info.cgu-odisha.ac.in (may still be accessible)",
+                "severity": "MEDIUM",
+                "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+            },
+            {
+                "issue": "Historical subdomain discovered: cloud.info.cgu-odisha.ac.in (may still be accessible)",
+                "severity": "MEDIUM",
+                "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+            },
+            {
+                "issue": "Historical subdomain discovered: crm.cgu-odisha.ac.in (may still be accessible)",
+                "severity": "MEDIUM",
+                "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+            }
+        ]
+    },
+    "screenshots": [
+        {
+            "note": "Disabled \u2014 pass enable_screenshots=True (requires: pip install playwright && playwright install chromium)"
+        }
+    ],
+    "enriched_attack_paths": {
+        "total_paths": 21,
+        "critical_paths": 16,
+        "kev_paths": 0,
+        "attack_paths": [
+            {
+                "chain_id": "DB_DIRECT_ADMISSION_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "admission.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on admission.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "admission.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "[\u0000\u0000\u0000 8.0.46-0ubuntu0.24.04.3\u0000Z\u0001\u0000\u0013f\u0011\u007f\u0003Pn\u0011\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000pJ\u000f=\"\u001bpV\u001bD\bX\u0000caching_sha2_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: crm.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as admission.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on admission.cgu-odisha.ac.in",
+                    "[\u0000\u0000\u0000 8.0.46-0ubuntu0.24.04.3\u0000Z\u0001\u0000\u0013f\u0011\u007f\u0003Pn\u0011\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000pJ\u000f=\"\u001bpV\u001bD\bX\u0000caching_sha2_password\u0000"
+                ],
+                "affected_assets": [
+                    "admission.cgu-odisha.ac.in",
+                    "crm.cgu-odisha.ac.in"
+                ],
+                "rank": 1,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 100
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_ADMISSION_5432",
+                "name": "Direct POSTGRESQL Database Access",
+                "entry_point": "admission.cgu-odisha.ac.in",
+                "service": "POSTGRESQL",
+                "port": 5432,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers POSTGRESQL on admission.cgu-odisha.ac.in:5432 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 5432 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "admission.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to POSTGRESQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and POSTGRESQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "POSTGRESQL on port 5432",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "POSTGRESQL banner responded"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "POSTGRESQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: crm.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as admission.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 POSTGRESQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 5432 OPEN on admission.cgu-odisha.ac.in",
+                    "banner confirmed"
+                ],
+                "affected_assets": [
+                    "admission.cgu-odisha.ac.in",
+                    "crm.cgu-odisha.ac.in"
+                ],
+                "rank": 2,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 100
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_AIC_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "aic.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on aic.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "aic.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001\u00013\u000ed]wS|\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015{dkW\u001a##\u000e\u0002W\u0015\u0000caching_sha2_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: pis.cgu-odisha.ac.in, recruitment.cgu-odisha.ac.in, tbi.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as aic.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on aic.cgu-odisha.ac.in",
+                    "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001\u00013\u000ed]wS|\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015{dkW\u001a##\u000e\u0002W\u0015\u0000caching_sha2_password\u0000"
+                ],
+                "affected_assets": [
+                    "aic.cgu-odisha.ac.in",
+                    "pis.cgu-odisha.ac.in",
+                    "recruitment.cgu-odisha.ac.in",
+                    "tbi.cgu-odisha.ac.in"
+                ],
+                "rank": 3,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 63
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_CRM_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "crm.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on crm.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "crm.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "[\u0000\u0000\u0000 8.0.46-0ubuntu0.24.04.3\u0000Z\u0001\u0000[/x\u007fQ\u000fPj\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000I\u0001\u0014Y.\u000ehh%\" 5\u0000caching_sha2_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: admission.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as crm.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on crm.cgu-odisha.ac.in",
+                    "[\u0000\u0000\u0000 8.0.46-0ubuntu0.24.04.3\u0000Z\u0001\u0000[/x\u007fQ\u000fPj\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000I\u0001\u0014Y.\u000ehh%\" 5\u0000caching_sha2_password\u0000"
+                ],
+                "affected_assets": [
+                    "crm.cgu-odisha.ac.in",
+                    "admission.cgu-odisha.ac.in"
+                ],
+                "rank": 4,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 100
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_CRM_5432",
+                "name": "Direct POSTGRESQL Database Access",
+                "entry_point": "crm.cgu-odisha.ac.in",
+                "service": "POSTGRESQL",
+                "port": 5432,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers POSTGRESQL on crm.cgu-odisha.ac.in:5432 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 5432 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "crm.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to POSTGRESQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and POSTGRESQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "POSTGRESQL on port 5432",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "POSTGRESQL banner responded"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "POSTGRESQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: admission.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as crm.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 POSTGRESQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 5432 OPEN on crm.cgu-odisha.ac.in",
+                    "banner confirmed"
+                ],
+                "affected_assets": [
+                    "crm.cgu-odisha.ac.in",
+                    "admission.cgu-odisha.ac.in"
+                ],
+                "rank": 5,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 100
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_EXAM_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "exam.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on exam.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "exam.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "V\u0000\u0000\u0000 11.8.8-MariaDB-log\u0000\u0015efN7evC*\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000Iossf*:%J'~h\u0000mysql_native_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on exam.cgu-odisha.ac.in",
+                    "V\u0000\u0000\u0000 11.8.8-MariaDB-log\u0000\u0015efN7evC*\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000Iossf*:%J'~h\u0000mysql_native_password\u0000"
+                ],
+                "affected_assets": [
+                    "exam.cgu-odisha.ac.in"
+                ],
+                "rank": 6,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 100
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_PIS_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "pis.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on pis.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "pis.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001\u0013/OAe\u001du\b\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003P]6\u0003;['C-x.\u0000caching_sha2_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: aic.cgu-odisha.ac.in, recruitment.cgu-odisha.ac.in, tbi.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as pis.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on pis.cgu-odisha.ac.in",
+                    "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001\u0013/OAe\u001du\b\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003P]6\u0003;['C-x.\u0000caching_sha2_password\u0000"
+                ],
+                "affected_assets": [
+                    "pis.cgu-odisha.ac.in",
+                    "aic.cgu-odisha.ac.in",
+                    "recruitment.cgu-odisha.ac.in",
+                    "tbi.cgu-odisha.ac.in"
+                ],
+                "rank": 7,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 63
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_RECRUITMENT_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "recruitment.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on recruitment.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "recruitment.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001Zv\u0012Nw2\u0015L\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000017bD\u001d\u0010 Clgn5\u0000caching_sha2_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: aic.cgu-odisha.ac.in, pis.cgu-odisha.ac.in, tbi.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as recruitment.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on recruitment.cgu-odisha.ac.in",
+                    "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001Zv\u0012Nw2\u0015L\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000017bD\u001d\u0010 Clgn5\u0000caching_sha2_password\u0000"
+                ],
+                "affected_assets": [
+                    "recruitment.cgu-odisha.ac.in",
+                    "aic.cgu-odisha.ac.in",
+                    "pis.cgu-odisha.ac.in",
+                    "tbi.cgu-odisha.ac.in"
+                ],
+                "rank": 8,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 63
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_STCW_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "stcw.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on stcw.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "stcw.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "[\u0000\u0000\u0000 8.0.46-0ubuntu0.22.04.3\u0000\u0000\u0000\\I\f 1LLQ\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000, 7VR}!||Ir\u001d\u0000caching_sha2_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on stcw.cgu-odisha.ac.in",
+                    "[\u0000\u0000\u0000 8.0.46-0ubuntu0.22.04.3\u0000\u0000\u0000\\I\f 1LLQ\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000, 7VR}!||Ir\u001d\u0000caching_sha2_password\u0000"
+                ],
+                "affected_assets": [
+                    "stcw.cgu-odisha.ac.in"
+                ],
+                "rank": 9,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 75
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DB_DIRECT_TBI_3306",
+                "name": "Direct MYSQL Database Access",
+                "entry_point": "tbi.cgu-odisha.ac.in",
+                "service": "MYSQL",
+                "port": 3306,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / Attacker",
+                        "action": "Port scan discovers MYSQL on tbi.cgu-odisha.ac.in:3306 open to internet",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 3306 confirmed OPEN"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "tbi.cgu-odisha.ac.in",
+                        "action": "Attacker connects directly to MYSQL \u2014 no firewall restriction",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "No authentication layer between internet and MYSQL"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "MYSQL on port 3306",
+                        "action": "Attacker attempts authentication (brute force / default creds / CVE)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001g\u0003\u0004\u001cas\u001aS\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Tj\u000b\u0019K\u007f27R3\u0001|\u0000caching_sha2_password\u0000"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Database",
+                        "action": "Extract tables, dump student/admission/exam data",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MYSQL is a database service containing business data"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "Same Server",
+                        "action": "Attacker pivots to co-hosted assets: aic.cgu-odisha.ac.in, pis.cgu-odisha.ac.in, recruitment.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services (lateral movement)",
+                        "evidence": "Same IP as tbi.cgu-odisha.ac.in \u2014 likely same OS/filesystem access"
+                    }
+                ],
+                "likelihood": 90,
+                "confidence": "HIGH",
+                "impact": "Direct data breach \u2014 MYSQL database contents fully accessible",
+                "business_impact": "Student records, admission data, exam results, credentials \u2014 all at risk",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1110",
+                    "T1213"
+                ],
+                "evidence": [
+                    "Port 3306 OPEN on tbi.cgu-odisha.ac.in",
+                    "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001g\u0003\u0004\u001cas\u001aS\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Tj\u000b\u0019K\u007f27R3\u0001|\u0000caching_sha2_password\u0000"
+                ],
+                "affected_assets": [
+                    "tbi.cgu-odisha.ac.in",
+                    "aic.cgu-odisha.ac.in",
+                    "pis.cgu-odisha.ac.in",
+                    "recruitment.cgu-odisha.ac.in"
+                ],
+                "rank": 10,
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "HIGH",
+                    "reputation": "HIGH",
+                    "data_risk": true,
+                    "exposure_score": 63
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "DEFAULT_CREDS_WORDPRESS",
+                "name": "Default Credentials \u2014 WordPress",
+                "entry_point": "tbi.cgu-odisha.ac.in",
+                "service": "WordPress",
+                "port": "/wp-login.php",
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "Discover WordPress at https://tbi.cgu-odisha.ac.in/wp-login.php",
+                        "technique": "T1595"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Attacker",
+                        "action": "Try known defaults: admin/admin, admin/password",
+                        "technique": "T1110.001 \u2014 Default Credentials"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "WordPress",
+                        "action": "Gain administrative access",
+                        "technique": "T1078 \u2014 Valid Accounts"
+                    }
+                ],
+                "likelihood": 85,
+                "confidence": "HIGH",
+                "mitre_chain": [
+                    "T1595",
+                    "T1110.001",
+                    "T1078"
+                ],
+                "business_impact": "Full WordPress admin access without credentials",
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "evidence": [
+                    "Panel: WordPress",
+                    "URL: https://tbi.cgu-odisha.ac.in/wp-login.php",
+                    "Defaults: ['admin/admin', 'admin/password']"
+                ],
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "CRITICAL",
+                    "data_risk": true,
+                    "exposure_score": 90
+                },
+                "rank": 11
+            },
+            {
+                "chain_id": "DEFAULT_CREDS_WORDPRESS",
+                "name": "Default Credentials \u2014 WordPress",
+                "entry_point": "tbi.cgu-odisha.ac.in",
+                "service": "WordPress",
+                "port": "/wp-admin/",
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "Discover WordPress at https://tbi.cgu-odisha.ac.in/wp-admin/",
+                        "technique": "T1595"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Attacker",
+                        "action": "Try known defaults: admin/admin, admin/password",
+                        "technique": "T1110.001 \u2014 Default Credentials"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "WordPress",
+                        "action": "Gain administrative access",
+                        "technique": "T1078 \u2014 Valid Accounts"
+                    }
+                ],
+                "likelihood": 85,
+                "confidence": "HIGH",
+                "mitre_chain": [
+                    "T1595",
+                    "T1110.001",
+                    "T1078"
+                ],
+                "business_impact": "Full WordPress admin access without credentials",
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "evidence": [
+                    "Panel: WordPress",
+                    "URL: https://tbi.cgu-odisha.ac.in/wp-admin/",
+                    "Defaults: ['admin/admin', 'admin/password']"
+                ],
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "CRITICAL",
+                    "data_risk": true,
+                    "exposure_score": 90
+                },
+                "rank": 12
+            },
+            {
+                "chain_id": "DEFAULT_CREDS_WORDPRESS",
+                "name": "Default Credentials \u2014 WordPress",
+                "entry_point": "tbi.cgu-odisha.ac.in",
+                "service": "WordPress",
+                "port": "/login",
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "Discover WordPress at https://tbi.cgu-odisha.ac.in/login",
+                        "technique": "T1595"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Attacker",
+                        "action": "Try known defaults: admin/admin, admin/password",
+                        "technique": "T1110.001 \u2014 Default Credentials"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "WordPress",
+                        "action": "Gain administrative access",
+                        "technique": "T1078 \u2014 Valid Accounts"
+                    }
+                ],
+                "likelihood": 85,
+                "confidence": "HIGH",
+                "mitre_chain": [
+                    "T1595",
+                    "T1110.001",
+                    "T1078"
+                ],
+                "business_impact": "Full WordPress admin access without credentials",
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "evidence": [
+                    "Panel: WordPress",
+                    "URL: https://tbi.cgu-odisha.ac.in/login",
+                    "Defaults: ['admin/admin', 'admin/password']"
+                ],
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "CRITICAL",
+                    "data_risk": true,
+                    "exposure_score": 90
+                },
+                "rank": 13
+            },
+            {
+                "chain_id": "DEFAULT_CREDS_WORDPRESS",
+                "name": "Default Credentials \u2014 WordPress",
+                "entry_point": "tbi.cgu-odisha.ac.in",
+                "service": "WordPress",
+                "port": "/wp-admin",
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "Discover WordPress at https://tbi.cgu-odisha.ac.in/wp-admin",
+                        "technique": "T1595"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Attacker",
+                        "action": "Try known defaults: admin/admin, admin/password",
+                        "technique": "T1110.001 \u2014 Default Credentials"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "WordPress",
+                        "action": "Gain administrative access",
+                        "technique": "T1078 \u2014 Valid Accounts"
+                    }
+                ],
+                "likelihood": 85,
+                "confidence": "HIGH",
+                "mitre_chain": [
+                    "T1595",
+                    "T1110.001",
+                    "T1078"
+                ],
+                "business_impact": "Full WordPress admin access without credentials",
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "evidence": [
+                    "Panel: WordPress",
+                    "URL: https://tbi.cgu-odisha.ac.in/wp-admin",
+                    "Defaults: ['admin/admin', 'admin/password']"
+                ],
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "CRITICAL",
+                    "data_risk": true,
+                    "exposure_score": 90
+                },
+                "rank": 14
+            },
+            {
+                "chain_id": "DEFAULT_CREDS_WORDPRESS",
+                "name": "Default Credentials \u2014 WordPress",
+                "entry_point": "tbi.cgu-odisha.ac.in",
+                "service": "WordPress",
+                "port": "/admin",
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "Discover WordPress at https://tbi.cgu-odisha.ac.in/admin",
+                        "technique": "T1595"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Attacker",
+                        "action": "Try known defaults: admin/admin, admin/password",
+                        "technique": "T1110.001 \u2014 Default Credentials"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "WordPress",
+                        "action": "Gain administrative access",
+                        "technique": "T1078 \u2014 Valid Accounts"
+                    }
+                ],
+                "likelihood": 85,
+                "confidence": "HIGH",
+                "mitre_chain": [
+                    "T1595",
+                    "T1110.001",
+                    "T1078"
+                ],
+                "business_impact": "Full WordPress admin access without credentials",
+                "skill_required": "script_kiddie",
+                "skill_label": "Script Kiddie",
+                "evidence": [
+                    "Panel: WordPress",
+                    "URL: https://tbi.cgu-odisha.ac.in/admin",
+                    "Defaults: ['admin/admin', 'admin/password']"
+                ],
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "CRITICAL",
+                    "data_risk": true,
+                    "exposure_score": 90
+                },
+                "rank": 15
+            },
+            {
+                "chain_id": "EMAIL_DOMAIN_SPOOF",
+                "name": "Email Domain Spoofing (DMARC p=none)",
+                "entry_point": "cgu-odisha.ac.in",
+                "service": "Email / SMTP",
+                "port": 25,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Attacker",
+                        "action": "Send email FROM @cgu-odisha.ac.in \u2014 DMARC policy is p=none (no enforcement)",
+                        "technique": "T1566 \u2014 Phishing",
+                        "evidence": "DMARC policy p=none does not reject or quarantine spoofed emails"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Student / Staff",
+                        "action": "Receive convincing phishing email appearing to come from university IT department",
+                        "technique": "T1566.001 \u2014 Spearphishing Attachment",
+                        "evidence": "Email appears legitimate \u2014 from address matches university domain"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "Victim",
+                        "action": "Click link or open attachment \u2014 credential harvesting page or malware",
+                        "technique": "T1078 \u2014 Valid Accounts",
+                        "evidence": "University portals (exam, admission) targeted for credential theft"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Attacker",
+                        "action": "Use stolen credentials to access exam portal, admission system, or admin panels",
+                        "technique": "T1078 \u2014 Valid Accounts",
+                        "evidence": "Stolen credentials valid for cgu-odisha.ac.in services"
+                    }
+                ],
+                "likelihood": 80,
+                "confidence": "HIGH",
+                "impact": "Domain impersonation enabling mass phishing of students and staff",
+                "business_impact": "Credential theft, exam fraud, reputation damage, regulatory liability",
+                "mitre_chain": [
+                    "T1566",
+                    "T1566.001",
+                    "T1078"
+                ],
+                "evidence": [
+                    "DMARC p=none",
+                    "SPF softfail (~all)"
+                ],
+                "affected_assets": [
+                    "cgu-odisha.ac.in"
+                ],
+                "rank": 16,
+                "skill_required": "intermediate",
+                "skill_label": "Intermediate",
+                "business_impact_detail": {
+                    "financial": "HIGH",
+                    "operational": "MEDIUM",
+                    "reputation": "MEDIUM",
+                    "data_risk": false,
+                    "exposure_score": 50
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "WP_RCE_AIC",
+                "name": "WordPress Plugin RCE \u2192 Database Pivot",
+                "entry_point": "aic.cgu-odisha.ac.in",
+                "service": "WordPress",
+                "port": 443,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "WordPress fingerprinted on aic.cgu-odisha.ac.in via wp-content paths",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "WordPress detected in HTTP response"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "aic.cgu-odisha.ac.in",
+                        "action": "Enumerate plugins via /wp-json/wp/v2/ and readme.txt files",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "WordPress REST API typically exposed at /wp-json/"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "WordPress plugin",
+                        "action": "Exploit unpatched plugin CVE for authenticated or unauthenticated RCE",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "WordPress plugins are the #1 attack vector (87% of WP compromises)"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Web server process",
+                        "action": "Execute OS commands as www-data, read wp-config.php for DB credentials",
+                        "technique": "T1552 \u2014 Unsecured Credentials",
+                        "evidence": "wp-config.php contains plaintext MySQL credentials"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "MySQL (port 3306)",
+                        "action": "Connect to database using credentials from wp-config.php",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MySQL port 3306 open on same server; wp-config.php has credentials"
+                    },
+                    {
+                        "step": 6,
+                        "actor": "Same server",
+                        "action": "Pivot to co-hosted assets sharing same IP: pis.cgu-odisha.ac.in, recruitment.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services",
+                        "evidence": "IP shared with 3 other assets"
+                    }
+                ],
+                "likelihood": 75,
+                "confidence": "HIGH",
+                "impact": "Remote code execution \u2192 full database compromise",
+                "business_impact": "Complete website takeover, data breach, potential ransomware deployment",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1552",
+                    "T1213"
+                ],
+                "evidence": [
+                    "WordPress on aic.cgu-odisha.ac.in",
+                    "MySQL 3306 open"
+                ],
+                "affected_assets": [
+                    "aic.cgu-odisha.ac.in",
+                    "pis.cgu-odisha.ac.in",
+                    "recruitment.cgu-odisha.ac.in",
+                    "tbi.cgu-odisha.ac.in"
+                ],
+                "rank": 17,
+                "skill_required": "intermediate",
+                "skill_label": "Intermediate",
+                "business_impact_detail": {
+                    "financial": "MEDIUM",
+                    "operational": "MEDIUM",
+                    "reputation": "MEDIUM",
+                    "data_risk": false,
+                    "exposure_score": 63
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "WP_RCE_TBI",
+                "name": "WordPress Plugin RCE \u2192 Database Pivot",
+                "entry_point": "tbi.cgu-odisha.ac.in",
+                "service": "WordPress",
+                "port": 443,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "WordPress fingerprinted on tbi.cgu-odisha.ac.in via wp-content paths",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "WordPress detected in HTTP response"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "tbi.cgu-odisha.ac.in",
+                        "action": "Enumerate plugins via /wp-json/wp/v2/ and readme.txt files",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "WordPress REST API typically exposed at /wp-json/"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "WordPress plugin",
+                        "action": "Exploit unpatched plugin CVE for authenticated or unauthenticated RCE",
+                        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+                        "evidence": "WordPress plugins are the #1 attack vector (87% of WP compromises)"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Web server process",
+                        "action": "Execute OS commands as www-data, read wp-config.php for DB credentials",
+                        "technique": "T1552 \u2014 Unsecured Credentials",
+                        "evidence": "wp-config.php contains plaintext MySQL credentials"
+                    },
+                    {
+                        "step": 5,
+                        "actor": "MySQL (port 3306)",
+                        "action": "Connect to database using credentials from wp-config.php",
+                        "technique": "T1213 \u2014 Data from Information Repositories",
+                        "evidence": "MySQL port 3306 open on same server; wp-config.php has credentials"
+                    },
+                    {
+                        "step": 6,
+                        "actor": "Same server",
+                        "action": "Pivot to co-hosted assets sharing same IP: aic.cgu-odisha.ac.in, pis.cgu-odisha.ac.in",
+                        "technique": "T1021 \u2014 Remote Services",
+                        "evidence": "IP shared with 3 other assets"
+                    }
+                ],
+                "likelihood": 75,
+                "confidence": "HIGH",
+                "impact": "Remote code execution \u2192 full database compromise",
+                "business_impact": "Complete website takeover, data breach, potential ransomware deployment",
+                "mitre_chain": [
+                    "T1595",
+                    "T1190",
+                    "T1552",
+                    "T1213"
+                ],
+                "evidence": [
+                    "WordPress on tbi.cgu-odisha.ac.in",
+                    "MySQL 3306 open"
+                ],
+                "affected_assets": [
+                    "tbi.cgu-odisha.ac.in",
+                    "aic.cgu-odisha.ac.in",
+                    "pis.cgu-odisha.ac.in",
+                    "recruitment.cgu-odisha.ac.in"
+                ],
+                "rank": 18,
+                "skill_required": "intermediate",
+                "skill_label": "Intermediate",
+                "business_impact_detail": {
+                    "financial": "MEDIUM",
+                    "operational": "MEDIUM",
+                    "reputation": "MEDIUM",
+                    "data_risk": false,
+                    "exposure_score": 63
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "SSL_MITM_EXAM",
+                "name": "SSL Certificate Failure \u2014 MITM on Exam Portal",
+                "entry_point": "exam.cgu-odisha.ac.in",
+                "service": "HTTPS",
+                "port": 443,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "exam.cgu-odisha.ac.in",
+                        "action": "TLS certificate validation fails \u2014 browsers show security warning",
+                        "technique": "T1557 \u2014 Adversary-in-the-Middle (setup condition)",
+                        "evidence": "SSL status: FAILED \u2014 certificate not trusted"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Students/Users",
+                        "action": "Users forced to click 'proceed anyway' \u2014 trained to ignore cert warnings",
+                        "technique": "T1566 \u2014 Phishing (social engineering component)",
+                        "evidence": "Broken SSL normalises security warnings for exam portal users"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "Attacker",
+                        "action": "Deploy rogue AP or DNS spoof \u2014 users already conditioned to accept bad certs",
+                        "technique": "T1557 \u2014 Adversary-in-the-Middle",
+                        "evidence": "Users will not notice attacker cert vs broken legitimate cert"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Exam portal",
+                        "action": "Capture student login credentials, session tokens, exam content",
+                        "technique": "T1552 \u2014 Unsecured Credentials",
+                        "evidence": "Login form submits credentials over compromised TLS"
+                    }
+                ],
+                "likelihood": 75,
+                "confidence": "HIGH",
+                "impact": "Credential theft and exam integrity compromise",
+                "business_impact": "Student credentials, exam papers, and results accessible to attacker",
+                "mitre_chain": [
+                    "T1557",
+                    "T1566",
+                    "T1552"
+                ],
+                "evidence": [
+                    "SSL status FAILED on exam.cgu-odisha.ac.in"
+                ],
+                "affected_assets": [
+                    "exam.cgu-odisha.ac.in"
+                ],
+                "rank": 19,
+                "skill_required": "intermediate",
+                "skill_label": "Intermediate",
+                "business_impact_detail": {
+                    "financial": "MEDIUM",
+                    "operational": "MEDIUM",
+                    "reputation": "MEDIUM",
+                    "data_risk": false,
+                    "exposure_score": 100
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "FTP_CLEARTEXT_EXAM",
+                "name": "FTP Cleartext Credential Interception",
+                "entry_point": "exam.cgu-odisha.ac.in",
+                "service": "FTP",
+                "port": 21,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet / MITM",
+                        "action": "FTP traffic on exam.cgu-odisha.ac.in is cleartext \u2014 any network observer can read credentials",
+                        "technique": "T1040 \u2014 Network Sniffing",
+                        "evidence": "Port 21 OPEN \u2014 FTP transmits passwords in plaintext"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Attacker",
+                        "action": "Capture FTP credentials via ARP spoofing or ISP-level interception",
+                        "technique": "T1557 \u2014 Adversary-in-the-Middle",
+                        "evidence": "No FTPS (port 990) detected \u2014 cleartext only"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "FTP server on exam.cgu-odisha.ac.in",
+                        "action": "Authenticate with captured credentials, download/upload files",
+                        "technique": "T1078 \u2014 Valid Accounts",
+                        "evidence": "FTP gives direct filesystem access"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Server filesystem",
+                        "action": "Access web root, config files, database credentials in PHP/env files",
+                        "technique": "T1552 \u2014 Unsecured Credentials",
+                        "evidence": "FTP root typically overlaps with web root on shared hosting"
+                    }
+                ],
+                "likelihood": 70,
+                "confidence": "HIGH",
+                "impact": "File system access and credential theft",
+                "business_impact": "Server files, database passwords, and application configs exposed",
+                "mitre_chain": [
+                    "T1040",
+                    "T1557",
+                    "T1078",
+                    "T1552"
+                ],
+                "evidence": [
+                    "Port 21 OPEN on exam.cgu-odisha.ac.in"
+                ],
+                "affected_assets": [
+                    "exam.cgu-odisha.ac.in"
+                ],
+                "rank": 20,
+                "skill_required": "intermediate",
+                "skill_label": "Intermediate",
+                "business_impact_detail": {
+                    "financial": "MEDIUM",
+                    "operational": "MEDIUM",
+                    "reputation": "MEDIUM",
+                    "data_risk": false,
+                    "exposure_score": 100
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            },
+            {
+                "chain_id": "SSH_BRUTE_STCW",
+                "name": "SSH Brute Force \u2192 Lateral Movement",
+                "entry_point": "stcw.cgu-odisha.ac.in",
+                "service": "SSH",
+                "port": 22,
+                "steps": [
+                    {
+                        "step": 1,
+                        "actor": "Internet",
+                        "action": "SSH (OpenSSH 8.9p1) detected on stcw.cgu-odisha.ac.in:22 \u2014 version disclosed in banner",
+                        "technique": "T1595 \u2014 Active Scanning",
+                        "evidence": "Port 22 OPEN, OpenSSH 8.9p1 banner confirmed"
+                    },
+                    {
+                        "step": 2,
+                        "actor": "Attacker",
+                        "action": "Brute force SSH with common credential lists (admin/admin, root/root, etc.)",
+                        "technique": "T1110 \u2014 Brute Force",
+                        "evidence": "No evidence of fail2ban or rate limiting from scan"
+                    },
+                    {
+                        "step": 3,
+                        "actor": "SSH on stcw.cgu-odisha.ac.in",
+                        "action": "Gain shell access with compromised credentials",
+                        "technique": "T1021.004 \u2014 Remote Services: SSH",
+                        "evidence": "SSH provides interactive shell on server"
+                    },
+                    {
+                        "step": 4,
+                        "actor": "Server",
+                        "action": "Read /etc/passwd, web configs, database credentials \u2014 escalate to root",
+                        "technique": "T1552 \u2014 Unsecured Credentials",
+                        "evidence": "Server hosts MySQL (port 3306) and web applications"
+                    }
+                ],
+                "likelihood": 70,
+                "confidence": "MEDIUM",
+                "impact": "Server compromise and lateral movement",
+                "business_impact": "Full server access, all hosted applications compromised",
+                "mitre_chain": [
+                    "T1595",
+                    "T1110",
+                    "T1021.004",
+                    "T1552"
+                ],
+                "evidence": [
+                    "SSH port 22 OPEN on stcw.cgu-odisha.ac.in",
+                    "OpenSSH 8.9p1 banner"
+                ],
+                "affected_assets": [
+                    "stcw.cgu-odisha.ac.in"
+                ],
+                "rank": 21,
+                "skill_required": "intermediate",
+                "skill_label": "Intermediate",
+                "business_impact_detail": {
+                    "financial": "MEDIUM",
+                    "operational": "CRITICAL",
+                    "reputation": "MEDIUM",
+                    "data_risk": false,
+                    "exposure_score": 75
+                },
+                "generated_at": "2026-08-06T07:52:59.984148+00:00"
+            }
+        ],
+        "summary": {
+            "top_path": "Direct MYSQL Database Access",
+            "top_likelihood": 90,
+            "skill_kiddie": 15,
+            "skill_advanced": 0
+        }
+    },
+    "risk_trends": {
+        "current_score": 62,
+        "score_history": [
+            {
+                "timestamp": "20260806_075206",
+                "risk_score": 62
+            },
+            {
+                "timestamp": "20260806_075213",
+                "risk_score": 62
+            }
+        ],
+        "trend_last": 0,
+        "trend_overall": 0,
+        "direction": "STABLE",
+        "scan_count": 2
+    },
+    "v5_findings": [
+        {
+            "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/login",
+            "severity": "HIGH",
+            "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+        },
+        {
+            "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/user/login",
+            "severity": "HIGH",
+            "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+        },
+        {
+            "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/admin/login",
+            "severity": "HIGH",
+            "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+        },
+        {
+            "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/admin",
+            "severity": "HIGH",
+            "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+        },
+        {
+            "issue": "Login page exposed: https://stcw.cgu-odisha.ac.in/admin/console",
+            "severity": "HIGH",
+            "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+        },
+        {
+            "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/wp-login.php",
+            "severity": "CRITICAL",
+            "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+        },
+        {
+            "issue": "Known default credentials exist for WordPress",
+            "severity": "CRITICAL",
+            "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+            "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+        },
+        {
+            "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/wp-admin/",
+            "severity": "CRITICAL",
+            "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+        },
+        {
+            "issue": "Known default credentials exist for WordPress",
+            "severity": "CRITICAL",
+            "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+            "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+        },
+        {
+            "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/login",
+            "severity": "CRITICAL",
+            "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+        },
+        {
+            "issue": "Known default credentials exist for WordPress",
+            "severity": "CRITICAL",
+            "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+            "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+        },
+        {
+            "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/wp-admin",
+            "severity": "CRITICAL",
+            "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+        },
+        {
+            "issue": "Known default credentials exist for WordPress",
+            "severity": "CRITICAL",
+            "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+            "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+        },
+        {
+            "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/dashboard",
+            "severity": "HIGH",
+            "evidence": "Auth type: FORM \u00b7 Panel: Login page"
+        },
+        {
+            "issue": "Login page exposed: https://tbi.cgu-odisha.ac.in/admin",
+            "severity": "CRITICAL",
+            "evidence": "Auth type: FORM \u00b7 Panel: WordPress"
+        },
+        {
+            "issue": "Known default credentials exist for WordPress",
+            "severity": "CRITICAL",
+            "evidence": "Panel WordPress has well-known defaults: admin/admin, admin/password",
+            "note": "SentinelX detected panel type only \u2014 credentials were NOT tested"
+        },
+        {
+            "issue": "Sensitive file exposed: /robots.txt",
+            "severity": "LOW",
+            "evidence": "https://aic.cgu-odisha.ac.in/robots.txt",
+            "secrets": []
+        },
+        {
+            "issue": "Sensitive file exposed: /sitemap.xml",
+            "severity": "LOW",
+            "evidence": "https://aic.cgu-odisha.ac.in/sitemap.xml",
+            "secrets": []
+        },
+        {
+            "issue": "Historical subdomain discovered: admission.cgu-odisha.ac.in (may still be accessible)",
+            "severity": "MEDIUM",
+            "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+        },
+        {
+            "issue": "Historical subdomain discovered: aic.cgu-odisha.ac.in (may still be accessible)",
+            "severity": "MEDIUM",
+            "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+        },
+        {
+            "issue": "Historical subdomain discovered: click.info.cgu-odisha.ac.in (may still be accessible)",
+            "severity": "MEDIUM",
+            "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+        },
+        {
+            "issue": "Historical subdomain discovered: cloud.info.cgu-odisha.ac.in (may still be accessible)",
+            "severity": "MEDIUM",
+            "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+        },
+        {
+            "issue": "Historical subdomain discovered: crm.cgu-odisha.ac.in (may still be accessible)",
+            "severity": "MEDIUM",
+            "evidence": "Found in passive DNS / CT logs \u2014 not in current scan"
+        }
+    ],
+    "v5_duration_seconds": 46.38
+}

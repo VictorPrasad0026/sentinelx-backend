@@ -1,0 +1,4457 @@
+{
+    "asset": "cgu-odisha.ac.in",
+    "scan_metadata": {
+        "scanner": "SentinelX ASM Platform",
+        "version": "2.0",
+        "scan_time": "2026-08-06T07:49:57.926221+00:00",
+        "duration_seconds": 128.87
+    },
+    "domain_intelligence": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:49:57.926221Z",
+        "whois": {
+            "registrar": "ERNET India",
+            "organization": null,
+            "created": "2020-03-23 16:32:39.567000+00:00",
+            "updated": "2025-09-20 12:52:47.713000+00:00",
+            "expires": "2030-03-23 16:32:39.567000+00:00",
+            "status": "ok https://icann.org/epp#ok",
+            "emails": "tejalt@eis.ernet.in"
+        },
+        "nameservers": [
+            "macy.ns.cloudflare.com",
+            "howard.ns.cloudflare.com"
+        ],
+        "dnssec": false,
+        "infrastructure": {
+            "ip": "3.108.140.28",
+            "asn": "16509",
+            "organization": "AMAZON-02 - Amazon.com, Inc., US",
+            "country": "US",
+            "reverse_dns": "ec2-3-108-140-28.ap-south-1.compute.amazonaws.com"
+        },
+        "tld": {
+            "tld": ".in",
+            "length": 16,
+            "subdomain": true
+        },
+        "reputation": {
+            "score": 0,
+            "severity": "LOW",
+            "findings": []
+        }
+    },
+    "dns_intelligence": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:49:59.756780+00:00",
+        "A": [
+            "3.108.140.28"
+        ],
+        "AAAA": [],
+        "MX": [
+            {
+                "priority": 1,
+                "host": "ASPMX.L.GOOGLE.COM"
+            },
+            {
+                "priority": 5,
+                "host": "ALT2.ASPMX.L.GOOGLE.COM"
+            },
+            {
+                "priority": 5,
+                "host": "ALT1.ASPMX.L.GOOGLE.COM"
+            },
+            {
+                "priority": 10,
+                "host": "ALT3.ASPMX.L.GOOGLE.COM"
+            },
+            {
+                "priority": 10,
+                "host": "ALT4.ASPMX.L.GOOGLE.COM"
+            }
+        ],
+        "NS": [
+            "howard.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+        ],
+        "TXT": [],
+        "CNAME": [],
+        "SOA": "howard.ns.cloudflare.com. dns.cloudflare.com. 2409441868 10000 2400 604800 1800",
+        "CAA": [],
+        "SRV": {},
+        "spf": "v=spf1 ~all",
+        "dmarc": "v=DMARC1; p=none; rua=mailto:563ccd7f604141f680c050bdd81fe872@dmarc-reports.cloudflare.net",
+        "txt_raw": [
+            "v=spf1 ~all"
+        ]
+    },
+    "ssl_intelligence": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:50:00.693999+00:00",
+        "ssl": {
+            "status": "VALID",
+            "verified": true,
+            "issuer": {
+                "countryName": "US",
+                "organizationName": "Let's Encrypt",
+                "commonName": "YR1"
+            },
+            "subject": {
+                "commonName": "cgu-odisha.ac.in"
+            },
+            "san": [
+                "cgu-odisha.ac.in"
+            ],
+            "san_count": 1,
+            "wildcard": false,
+            "self_signed": false,
+            "valid_from": "Jul 14 06:53:05 2026 GMT",
+            "valid_until": "Oct 12 06:53:04 2026 GMT",
+            "days_remaining": 66,
+            "tls_version": "TLSv1.3",
+            "cipher_suite": "TLS_AES_256_GCM_SHA384",
+            "cipher_bits": 256,
+            "fingerprint_sha256": "60d1ff0cdee101cd714b1c0ee8900875de7cc45c5886eeecd2c68b7e30f81aa6",
+            "ocsp_urls": [],
+            "security_checks": {
+                "tls_secure": true,
+                "tls_version_ok": true,
+                "certificate_valid": true,
+                "not_expired": true,
+                "not_self_signed": true,
+                "strong_cipher": true
+            }
+        }
+    },
+    "http_intelligence": {
+        "reachable": true,
+        "url": "https://cgu-odisha.ac.in/",
+        "status_code": 200,
+        "response_time": 1.755,
+        "server": "Web",
+        "powered_by": null,
+        "technologies": [
+            {
+                "name": "WordPress",
+                "evidence": "wp-content"
+            },
+            {
+                "name": "Bootstrap",
+                "evidence": "bootstrap"
+            }
+        ],
+        "security_headers": {
+            "strict-transport-security": {
+                "present": false,
+                "value": null
+            },
+            "content-security-policy": {
+                "present": false,
+                "value": null
+            },
+            "x-frame-options": {
+                "present": false,
+                "value": null
+            },
+            "x-content-type-options": {
+                "present": false,
+                "value": null
+            },
+            "referrer-policy": {
+                "present": false,
+                "value": null
+            },
+            "permissions-policy": {
+                "present": false,
+                "value": null
+            }
+        },
+        "csp_raw": null,
+        "cookies": [
+            {
+                "name": "PHPSESSID",
+                "secure": false,
+                "httponly": false,
+                "samesite": null
+            }
+        ],
+        "waf": {
+            "detected": false,
+            "provider": null
+        },
+        "headers": {
+            "Date": "Thu, 06 Aug 2026 07:50:02 GMT",
+            "Server": "Web",
+            "Set-Cookie": "PHPSESSID=ta2m44vhsi79in52jk4mg4sopp; path=/",
+            "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Pragma": "no-cache",
+            "Link": "<https://cgu-odisha.ac.in/wp-json/>; rel=\"https://api.w.org/\", <https://cgu-odisha.ac.in/wp-json/wp/v2/pages/8>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://cgu-odisha.ac.in/>; rel=shortlink",
+            "Vary": "Accept-Encoding",
+            "Content-Encoding": "gzip",
+            "Keep-Alive": "timeout=5, max=100",
+            "Connection": "Keep-Alive",
+            "Transfer-Encoding": "chunked",
+            "Content-Type": "text/html; charset=UTF-8"
+        }
+    },
+    "technology_intelligence": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:50:02.547130",
+        "technology": {
+            "status_code": 200,
+            "final_url": "https://cgu-odisha.ac.in/",
+            "redirects": 0,
+            "server": "Web",
+            "powered_by": "Unknown",
+            "detected_frameworks": [
+                {
+                    "name": "WordPress",
+                    "evidence": "wordpress"
+                }
+            ]
+        },
+        "security_headers": {
+            "strict-transport-security": {
+                "present": false,
+                "value": null
+            },
+            "content-security-policy": {
+                "present": false,
+                "value": null
+            },
+            "x-frame-options": {
+                "present": false,
+                "value": null
+            },
+            "x-content-type-options": {
+                "present": false,
+                "value": null
+            },
+            "referrer-policy": {
+                "present": false,
+                "value": null
+            },
+            "permissions-policy": {
+                "present": false,
+                "value": null
+            }
+        },
+        "cookies": [
+            {
+                "name": "PHPSESSID",
+                "secure": false,
+                "httponly": false,
+                "samesite": null
+            }
+        ],
+        "csp_raw": {
+            "enabled": false,
+            "value": null
+        },
+        "raw_headers": {
+            "Date": "Thu, 06 Aug 2026 07:50:03 GMT",
+            "Server": "Web",
+            "Set-Cookie": "PHPSESSID=86cpd5mu6of5tm2siasa7f3bn2; path=/",
+            "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Pragma": "no-cache",
+            "Link": "<https://cgu-odisha.ac.in/wp-json/>; rel=\"https://api.w.org/\", <https://cgu-odisha.ac.in/wp-json/wp/v2/pages/8>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://cgu-odisha.ac.in/>; rel=shortlink",
+            "Vary": "Accept-Encoding",
+            "Content-Encoding": "gzip",
+            "Keep-Alive": "timeout=5, max=100",
+            "Connection": "Keep-Alive",
+            "Transfer-Encoding": "chunked",
+            "Content-Type": "text/html; charset=UTF-8"
+        },
+        "protection": {
+            "detected": false,
+            "type": null,
+            "evidence": []
+        },
+        "response_confidence": {
+            "level": "LOW",
+            "reason": [
+                "Challenge page detected: captcha"
+            ]
+        },
+        "security_posture": {
+            "security_score": null,
+            "status": "UNRELIABLE_RESPONSE",
+            "reason": "Security gateway response detected"
+        }
+    },
+    "csp_intelligence": {
+        "enabled": false,
+        "risk_level": "UNKNOWN",
+        "directives": {},
+        "trusted_domains": [],
+        "message": "Content Security Policy not detected"
+    },
+    "email_intelligence": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:50:03.792688Z",
+        "mx": {
+            "records": [
+                {
+                    "priority": "5",
+                    "host": "ALT2.ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "priority": "1",
+                    "host": "ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "priority": "10",
+                    "host": "ALT3.ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "priority": "10",
+                    "host": "ALT4.ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "priority": "5",
+                    "host": "ALT1.ASPMX.L.GOOGLE.COM"
+                }
+            ],
+            "provider": "Google Workspace"
+        },
+        "spf": {
+            "enabled": true,
+            "record": "v=spf1 ~all",
+            "mechanisms": [
+                "~all"
+            ],
+            "includes": [],
+            "policy": "softfail",
+            "risk": "MEDIUM"
+        },
+        "dmarc": {
+            "enabled": true,
+            "record": "v=DMARC1; p=none; rua=mailto:563ccd7f604141f680c050bdd81fe872@dmarc-reports.cloudflare.net",
+            "policy": "none",
+            "rua": [
+                "mailto:563ccd7f604141f680c050bdd81fe872@dmarc-reports.cloudflare.net"
+            ],
+            "ruf": [],
+            "alignment": {
+                "dkim": "relaxed",
+                "spf": "relaxed"
+            },
+            "risk": "HIGH"
+        },
+        "dkim": {
+            "status": "NOT_FOUND",
+            "confidence": "LOW",
+            "selectors_tested": [
+                "default",
+                "google",
+                "selector1",
+                "selector2",
+                "mail",
+                "smtp",
+                "dkim"
+            ],
+            "found_selectors": []
+        },
+        "smtp": {
+            "servers": [
+                {
+                    "host": "ALT2.ASPMX.L.GOOGLE.COM",
+                    "ip": "172.253.158.26"
+                },
+                {
+                    "host": "ASPMX.L.GOOGLE.COM",
+                    "ip": "192.178.211.27"
+                },
+                {
+                    "host": "ALT3.ASPMX.L.GOOGLE.COM",
+                    "ip": "108.177.125.26"
+                },
+                {
+                    "host": "ALT4.ASPMX.L.GOOGLE.COM",
+                    "ip": "192.178.230.26"
+                },
+                {
+                    "host": "ALT1.ASPMX.L.GOOGLE.COM",
+                    "ip": "173.194.41.26"
+                }
+            ],
+            "tls_supported": null,
+            "open_relay": null
+        },
+        "risk": {
+            "score": 18,
+            "findings": [
+                {
+                    "issue": "DMARC policy monitoring only",
+                    "severity": "MEDIUM"
+                },
+                {
+                    "issue": "DKIM selector not discovered",
+                    "severity": "MEDIUM"
+                }
+            ]
+        }
+    },
+    "infrastructure_intelligence": {
+        "target": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:50:04.162550+00:00",
+        "ip": "3.108.140.28",
+        "asn": {
+            "target": "3.108.140.28",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-08-06T07:50:04.162550+00:00",
+            "asn": "16509",
+            "description": "AMAZON-02 - Amazon.com, Inc., US",
+            "network": "AMAZON-BOM",
+            "country": null,
+            "registry": "arin",
+            "cloud_provider": "AWS"
+        },
+        "geoip": {
+            "target": "3.108.140.28",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-08-06T07:50:05.116360+00:00",
+            "geoip": {
+                "country": "India",
+                "country_code": "IN",
+                "city": "Mumbai",
+                "latitude": 19.0748,
+                "longitude": 72.8856,
+                "timezone": "Asia/Kolkata"
+            }
+        },
+        "cloud": {
+            "provider": "AWS",
+            "confidence": "HIGH",
+            "evidence": [
+                "amazon"
+            ]
+        },
+        "reverse_dns": {
+            "target": "3.108.140.28",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-08-06T07:50:05.128818+00:00",
+            "reverse_dns": {
+                "hostname": "ec2-3-108-140-28.ap-south-1.compute.amazonaws.com",
+                "provider_hint": "AWS",
+                "status": "FOUND"
+            }
+        },
+        "cdn": {
+            "detected": true,
+            "provider": "Cloudflare",
+            "confidence": "HIGH",
+            "evidence": [
+                "Cloudflare nameserver detected",
+                "Cloudflare CNAME detected"
+            ]
+        },
+        "ports": {
+            "host": "cgu-odisha.ac.in",
+            "ip": "3.108.140.28",
+            "timestamp": "2026-08-06T07:50:19.377052+00:00",
+            "ports": [
+                {
+                    "port": 80,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "HTTP",
+                    "risk": "LOW",
+                    "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:50:07 GMT\r Server: Web\r X-Content-Type-Options: nosniff\r X-Frame-Options: SAMEORIGIN\r X-XSS-Protection: 1; mode=block\r Referrer-Policy: no-referrer-when-down"
+                },
+                {
+                    "port": 443,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "GIT-HTTPS",
+                    "risk": "LOW",
+                    "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:50:07 GMT\r Server: Web\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DTD H"
+                },
+                {
+                    "port": 3306,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "MYSQL",
+                    "risk": "CRITICAL",
+                    "banner": "[\u0000\u0000\u0000 8.0.46-0ubuntu0.24.04.3\u0000Z\u0001\u00004\u0005lo%(\u0019\u001f\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@C)X\u0013o^ \u001ee\u001f?\u0000caching_sha2_password\u0000"
+                },
+                {
+                    "port": 5432,
+                    "protocol": "TCP",
+                    "state": "OPEN",
+                    "service": "POSTGRESQL",
+                    "risk": "CRITICAL",
+                    "banner": null
+                }
+            ],
+            "summary": {
+                "total_scanned": 243,
+                "open": 4
+            },
+            "exposure_score": 54,
+            "findings": [
+                {
+                    "category": "Infrastructure",
+                    "issue": "MYSQL exposed on port 3306",
+                    "severity": "CRITICAL",
+                    "port": 3306,
+                    "recommendation": "Restrict internet exposure using firewall or VPN"
+                },
+                {
+                    "category": "Infrastructure",
+                    "issue": "POSTGRESQL exposed on port 5432",
+                    "severity": "CRITICAL",
+                    "port": 5432,
+                    "recommendation": "Restrict internet exposure using firewall or VPN"
+                }
+            ],
+            "scan_time": 13.09
+        },
+        "exposure_score": 54
+    },
+    "subdomain_intelligence": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:50:19.378343Z",
+        "discovery": {
+            "crtsh": 0,
+            "certspotter": 11,
+            "otx": 0,
+            "dns_bruteforce": 0,
+            "permutation": 0,
+            "recursive": 12,
+            "zone_transfer": 0
+        },
+        "wildcard_dns": false,
+        "total_subdomains": 12,
+        "subdomains": [
+            {
+                "host": "admission.cgu-odisha.ac.in",
+                "A": [
+                    "3.108.140.28"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "aic.cgu-odisha.ac.in",
+                "A": [
+                    "65.1.120.153"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "click.info.cgu-odisha.ac.in",
+                "A": [
+                    "128.245.144.43"
+                ],
+                "AAAA": [],
+                "CNAME": [
+                    "tltfz9jlrm523dzfmvtzq2sl-myy.click-sap.sfmc-marketing.com"
+                ],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "cloud.info.cgu-odisha.ac.in",
+                "A": [
+                    "128.245.128.22"
+                ],
+                "AAAA": [],
+                "CNAME": [
+                    "tlwknq2kj2b3v8w7qjqgnrr9jgd1.cp-sap.sfmc-content.com"
+                ],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "crm.cgu-odisha.ac.in",
+                "A": [
+                    "3.108.140.28"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "exam.cgu-odisha.ac.in",
+                "A": [
+                    "147.93.22.204"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive"
+            },
+            {
+                "host": "image.info.cgu-odisha.ac.in",
+                "A": [
+                    "18.155.99.28",
+                    "18.155.99.64",
+                    "18.155.99.111",
+                    "18.155.99.56"
+                ],
+                "AAAA": [
+                    "2600:9000:24d8:5c00:3:cf9f:b2c0:93a1",
+                    "2600:9000:24d8:7200:3:cf9f:b2c0:93a1",
+                    "2600:9000:24d8:4c00:3:cf9f:b2c0:93a1",
+                    "2600:9000:24d8:2600:3:cf9f:b2c0:93a1",
+                    "2600:9000:24d8:2800:3:cf9f:b2c0:93a1",
+                    "2600:9000:24d8:9a00:3:cf9f:b2c0:93a1",
+                    "2600:9000:24d8:4600:3:cf9f:b2c0:93a1",
+                    "2600:9000:24d8:f400:3:cf9f:b2c0:93a1"
+                ],
+                "CNAME": [
+                    "tl81-z7zff9rncv7m6x7b8n-9cqm.image-sap.sfmc-content.com"
+                ],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "pis.cgu-odisha.ac.in",
+                "A": [
+                    "65.1.120.153"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "recruitment.cgu-odisha.ac.in",
+                "A": [
+                    "65.1.120.153"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "stcw.cgu-odisha.ac.in",
+                "A": [
+                    "13.235.10.158"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "tbi.cgu-odisha.ac.in",
+                "A": [
+                    "65.1.120.153"
+                ],
+                "AAAA": [],
+                "CNAME": [],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            },
+            {
+                "host": "view.info.cgu-odisha.ac.in",
+                "A": [
+                    "128.245.160.41"
+                ],
+                "AAAA": [],
+                "CNAME": [
+                    "tls9ln31-06l-g0724-gjjhb9q9q.view-sap.sfmc-marketing.com"
+                ],
+                "source": "recursive",
+                "sources": [
+                    "certspotter"
+                ]
+            }
+        ]
+    },
+    "subdomain_assets": {
+        "domain": "cgu-odisha.ac.in",
+        "timestamp": "2026-08-06T07:52:06.798760Z",
+        "total_assets": 12,
+        "assets": [
+            {
+                "host": "admission.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.813024Z",
+                "dns": {
+                    "host": "admission.cgu-odisha.ac.in",
+                    "A": [
+                        "3.108.140.28"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Let's Encrypt",
+                        "commonName": "YE1"
+                    },
+                    "subject": {
+                        "commonName": "admission.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Aug  1 21:12:08 2026 GMT",
+                    "valid_until": "Oct 30 21:12:07 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.079
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://admission.cgu-odisha.ac.in/",
+                    "status_code": 200,
+                    "response_time": 0.086,
+                    "server": "Web",
+                    "powered_by": null,
+                    "technologies": [],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Server": "Web",
+                        "Last-Modified": "Tue, 04 Aug 2026 13:00:15 GMT",
+                        "ETag": "\"299-658383c66e825-gzip\"",
+                        "Accept-Ranges": "bytes",
+                        "Vary": "Accept-Encoding",
+                        "Content-Encoding": "gzip",
+                        "Content-Length": "352",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Connection": "Keep-Alive",
+                        "Content-Type": "text/html"
+                    }
+                },
+                "infrastructure": {
+                    "target": "admission.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:34.027703+00:00",
+                    "ip": "3.108.140.28",
+                    "asn": {
+                        "target": "3.108.140.28",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:34.028775+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-BOM",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "3.108.140.28",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:35.201946+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "3.108.140.28",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:35.202965+00:00",
+                        "reverse_dns": {
+                            "hostname": "ec2-3-108-140-28.ap-south-1.compute.amazonaws.com",
+                            "provider_hint": "AWS",
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "admission.cgu-odisha.ac.in",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:48.473595+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Web\r X-Content-Type-Options: nosniff\r X-Frame-Options: SAMEORIGIN\r X-XSS-Protection: 1; mode=block\r Referrer-Policy: no-referrer-when-down"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Web\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DTD H"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "[\u0000\u0000\u0000 8.0.46-0ubuntu0.24.04.3\u0000Z\u0001\u0000\u0013f\u0011\u007f\u0003Pn\u0011\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000pJ\u000f=\"\u001bpV\u001bD\bX\u0000caching_sha2_password\u0000"
+                            },
+                            {
+                                "port": 5432,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "POSTGRESQL",
+                                "risk": "CRITICAL",
+                                "banner": null
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 4
+                        },
+                        "exposure_score": 54,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            },
+                            {
+                                "category": "Infrastructure",
+                                "issue": "POSTGRESQL exposed on port 5432",
+                                "severity": "CRITICAL",
+                                "port": 5432,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 13.15
+                    },
+                    "exposure_score": 54
+                },
+                "risk": {
+                    "score": 75,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Critical service exposed: POSTGRESQL on port 5432",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "aic.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.813024Z",
+                "dns": {
+                    "host": "aic.cgu-odisha.ac.in",
+                    "A": [
+                        "65.1.120.153"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Let's Encrypt",
+                        "commonName": "YR1"
+                    },
+                    "subject": {
+                        "commonName": "aic.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Jul  3 14:25:19 2026 GMT",
+                    "valid_until": "Oct  1 14:25:18 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.066
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://aic.cgu-odisha.ac.in/",
+                    "status_code": 200,
+                    "response_time": 0.474,
+                    "server": "Apache",
+                    "powered_by": null,
+                    "technologies": [
+                        {
+                            "name": "Apache",
+                            "evidence": "apache"
+                        },
+                        {
+                            "name": "WordPress",
+                            "evidence": "wp-content"
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "evidence": "bootstrap"
+                        }
+                    ],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Server": "Apache",
+                        "Link": "<https://aic.cgu-odisha.ac.in/wp-json/>; rel=\"https://api.w.org/\", <https://aic.cgu-odisha.ac.in/wp-json/wp/v2/pages/8>; rel=\"alternate\"; type=\"application/json\", <https://aic.cgu-odisha.ac.in/>; rel=shortlink",
+                        "Vary": "Accept-Encoding",
+                        "Content-Encoding": "gzip",
+                        "Content-Length": "17607",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Connection": "Keep-Alive",
+                        "Content-Type": "text/html; charset=UTF-8"
+                    }
+                },
+                "infrastructure": {
+                    "target": "aic.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:34.418404+00:00",
+                    "ip": "65.1.120.153",
+                    "asn": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:34.418404+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-BOM",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:35.493398+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:35.493398+00:00",
+                        "reverse_dns": {
+                            "hostname": "ec2-65-1-120-153.ap-south-1.compute.amazonaws.com",
+                            "provider_hint": "AWS",
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "aic.cgu-odisha.ac.in",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:48.520273+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:51:37 GMT\r Server: Apache\r Last-Modified: Thu, 18 Apr 2024 13:24:20 GMT\r ETag: \"4-6165ee38674bb\"\r Accept-Ranges: bytes\r Content-Length: 4\r Connection: close\r"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:51:37 GMT\r Server: Apache\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DT"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001\u00013\u000ed]wS|\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015{dkW\u001a##\u000e\u0002W\u0015\u0000caching_sha2_password\u0000"
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 3
+                        },
+                        "exposure_score": 29,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 12.52
+                    },
+                    "exposure_score": 29
+                },
+                "risk": {
+                    "score": 50,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "click.info.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.814043Z",
+                "dns": {
+                    "host": "click.info.cgu-odisha.ac.in",
+                    "A": [
+                        "128.245.144.43"
+                    ],
+                    "AAAA": [],
+                    "CNAME": [
+                        "tltfz9jlrm523dzfmvtzq2sl-myy.click-sap.sfmc-marketing.com"
+                    ]
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "DigiCert Inc",
+                        "commonName": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                    },
+                    "subject": {
+                        "countryName": "US",
+                        "stateOrProvinceName": "California",
+                        "localityName": "San Francisco",
+                        "organizationName": "Salesforce, Inc.",
+                        "commonName": "click.info.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Mar 18 00:00:00 2026 GMT",
+                    "valid_until": "Oct  2 23:59:59 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.521
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://click.info.cgu-odisha.ac.in/",
+                    "status_code": 403,
+                    "response_time": 0.819,
+                    "server": null,
+                    "powered_by": null,
+                    "technologies": [],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": true,
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        "content-security-policy": {
+                            "present": true,
+                            "value": "default-src 'self'; frame-ancestors 'self'"
+                        },
+                        "x-frame-options": {
+                            "present": true,
+                            "value": "SAMEORIGIN"
+                        },
+                        "x-content-type-options": {
+                            "present": true,
+                            "value": "nosniff"
+                        },
+                        "referrer-policy": {
+                            "present": true,
+                            "value": "origin-when-cross-origin"
+                        },
+                        "permissions-policy": {
+                            "present": true,
+                            "value": "geolocation=(self), microphone=()"
+                        }
+                    },
+                    "csp_raw": "default-src 'self'; frame-ancestors 'self'",
+                    "cookies": [
+                        {
+                            "name": "strict",
+                            "secure": false,
+                            "httponly": false,
+                            "samesite": null
+                        }
+                    ],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store, private",
+                        "Content-Type": "text/html",
+                        "Content-Security-Policy": "default-src 'self'; frame-ancestors 'self'",
+                        "X-Frame-Options": "SAMEORIGIN",
+                        "X-Content-Type-Options": "nosniff",
+                        "Referrer-Policy": "origin-when-cross-origin",
+                        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+                        "X-XSS-Protection": "1; mode=block",
+                        "Permissions-Policy": "geolocation=(self), microphone=()",
+                        "Set-Cookie": "strict",
+                        "Date": "Thu, 06 Aug 2026 07:51:36 GMT",
+                        "Connection": "close",
+                        "Content-Length": "1233"
+                    }
+                },
+                "infrastructure": {
+                    "target": "click.info.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:35.216388+00:00",
+                    "ip": "128.245.144.43",
+                    "asn": {
+                        "target": "128.245.144.43",
+                        "ip": "128.245.144.43",
+                        "timestamp": "2026-08-06T07:51:35.217846+00:00",
+                        "asn": "14340",
+                        "description": "SALESFORCE - Salesforce.com, Inc., US",
+                        "network": "SALESF-3",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "Unknown"
+                    },
+                    "geoip": {
+                        "target": "128.245.144.43",
+                        "ip": "128.245.144.43",
+                        "timestamp": "2026-08-06T07:51:36.295197+00:00",
+                        "geoip": {
+                            "country": "United States",
+                            "country_code": "US",
+                            "city": null,
+                            "latitude": 37.751,
+                            "longitude": -97.822,
+                            "timezone": "America/Chicago"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "UNKNOWN",
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "reverse_dns": {
+                        "target": "128.245.144.43",
+                        "ip": "128.245.144.43",
+                        "timestamp": "2026-08-06T07:51:36.296208+00:00",
+                        "reverse_dns": {
+                            "hostname": "ahq43.mta.exacttarget.com",
+                            "provider_hint": null,
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "click.info.cgu-odisha.ac.in",
+                        "ip": "128.245.144.43",
+                        "timestamp": "2026-08-06T07:51:50.804594+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.0 301 Moved Permanently\r Location: https:///\r Connection: close\r Content-Length: 0\r \r "
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": null
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 2
+                        },
+                        "exposure_score": 4,
+                        "findings": [],
+                        "scan_time": 13.13
+                    },
+                    "exposure_score": 4
+                },
+                "risk": {
+                    "score": 5,
+                    "severity": "LOW",
+                    "findings": [
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "cloud.info.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.814043Z",
+                "dns": {
+                    "host": "cloud.info.cgu-odisha.ac.in",
+                    "A": [
+                        "128.245.128.22"
+                    ],
+                    "AAAA": [],
+                    "CNAME": [
+                        "tlwknq2kj2b3v8w7qjqgnrr9jgd1.cp-sap.sfmc-content.com"
+                    ]
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "DigiCert Inc",
+                        "commonName": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                    },
+                    "subject": {
+                        "countryName": "US",
+                        "stateOrProvinceName": "California",
+                        "localityName": "San Francisco",
+                        "organizationName": "Salesforce, Inc.",
+                        "commonName": "cloud.info.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Mar 18 00:00:00 2026 GMT",
+                    "valid_until": "Oct  2 23:59:59 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.555
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://cloud.info.cgu-odisha.ac.in/",
+                    "status_code": 404,
+                    "response_time": 0.853,
+                    "server": null,
+                    "powered_by": null,
+                    "technologies": [],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Cache-Control": "private",
+                        "Content-Type": "text/html; charset=utf-8",
+                        "X-Cache-Status": "STORED",
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Connection": "close",
+                        "Content-Length": "9"
+                    }
+                },
+                "infrastructure": {
+                    "target": "cloud.info.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:35.252768+00:00",
+                    "ip": "128.245.128.22",
+                    "asn": {
+                        "target": "128.245.128.22",
+                        "ip": "128.245.128.22",
+                        "timestamp": "2026-08-06T07:51:35.255239+00:00",
+                        "asn": "14340",
+                        "description": "SALESFORCE - Salesforce.com, Inc., US",
+                        "network": "SALESF-3",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "Unknown"
+                    },
+                    "geoip": {
+                        "target": "128.245.128.22",
+                        "ip": "128.245.128.22",
+                        "timestamp": "2026-08-06T07:51:36.289371+00:00",
+                        "geoip": {
+                            "country": "United States",
+                            "country_code": "US",
+                            "city": null,
+                            "latitude": 37.751,
+                            "longitude": -97.822,
+                            "timezone": "America/Chicago"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "UNKNOWN",
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "reverse_dns": {
+                        "target": "128.245.128.22",
+                        "ip": "128.245.128.22",
+                        "timestamp": "2026-08-06T07:51:36.291723+00:00",
+                        "reverse_dns": {
+                            "hostname": "aha22.mta.exacttarget.com",
+                            "provider_hint": null,
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": true,
+                        "provider": "AWS CloudFront",
+                        "confidence": "MEDIUM",
+                        "evidence": [
+                            "AWS CloudFront header detected"
+                        ]
+                    },
+                    "ports": {
+                        "host": "cloud.info.cgu-odisha.ac.in",
+                        "ip": "128.245.128.22",
+                        "timestamp": "2026-08-06T07:51:50.224614+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 404 Not Found\r Cache-Control: private\r Content-Length: 9\r Content-Type: text/html; charset=utf-8\r X-Cache-Status: CACHED\r Date: Thu, 06 Aug 2026 07:51:38 GMT\r Connection: close\r \r "
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": null
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 2
+                        },
+                        "exposure_score": 4,
+                        "findings": [],
+                        "scan_time": 13.1
+                    },
+                    "exposure_score": 4
+                },
+                "risk": {
+                    "score": 25,
+                    "severity": "MEDIUM",
+                    "findings": [
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "crm.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.815039Z",
+                "dns": {
+                    "host": "crm.cgu-odisha.ac.in",
+                    "A": [
+                        "3.108.140.28"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Let's Encrypt",
+                        "commonName": "YE1"
+                    },
+                    "subject": {
+                        "commonName": "crm.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Jun 16 07:42:16 2026 GMT",
+                    "valid_until": "Sep 14 07:42:15 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.073
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://crm.cgu-odisha.ac.in/",
+                    "status_code": 200,
+                    "response_time": 0.126,
+                    "server": "Web",
+                    "powered_by": "Express",
+                    "technologies": [],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Server": "Web",
+                        "X-Powered-By": "Express",
+                        "Access-Control-Allow-Origin": "*",
+                        "Content-Type": "application/json; charset=utf-8",
+                        "Content-Length": "63",
+                        "ETag": "W/\"3f-yGuSr1Rj+Og0PjBiXiNZoQIr6Uc\"",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Connection": "Keep-Alive"
+                    }
+                },
+                "infrastructure": {
+                    "target": "crm.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:34.087538+00:00",
+                    "ip": "3.108.140.28",
+                    "asn": {
+                        "target": "3.108.140.28",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:34.087538+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-BOM",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "3.108.140.28",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:35.207529+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "3.108.140.28",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:35.208541+00:00",
+                        "reverse_dns": {
+                            "hostname": "ec2-3-108-140-28.ap-south-1.compute.amazonaws.com",
+                            "provider_hint": "AWS",
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "crm.cgu-odisha.ac.in",
+                        "ip": "3.108.140.28",
+                        "timestamp": "2026-08-06T07:51:48.489417+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Web\r X-Content-Type-Options: nosniff\r X-Frame-Options: SAMEORIGIN\r X-XSS-Protection: 1; mode=block\r Referrer-Policy: no-referrer-when-down"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Web\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DTD H"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "[\u0000\u0000\u0000 8.0.46-0ubuntu0.24.04.3\u0000Z\u0001\u0000[/x\u007fQ\u000fPj\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000I\u0001\u0014Y.\u000ehh%\" 5\u0000caching_sha2_password\u0000"
+                            },
+                            {
+                                "port": 5432,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "POSTGRESQL",
+                                "risk": "CRITICAL",
+                                "banner": null
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 4
+                        },
+                        "exposure_score": 54,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            },
+                            {
+                                "category": "Infrastructure",
+                                "issue": "POSTGRESQL exposed on port 5432",
+                                "severity": "CRITICAL",
+                                "port": 5432,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 13.15
+                    },
+                    "exposure_score": 54
+                },
+                "risk": {
+                    "score": 75,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Critical service exposed: POSTGRESQL on port 5432",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "exam.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.816035Z",
+                "dns": {
+                    "host": "exam.cgu-odisha.ac.in",
+                    "A": [
+                        "147.93.22.204"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "FAILED",
+                    "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)"
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "http://exam.cgu-odisha.ac.in/",
+                    "status_code": 403,
+                    "response_time": 0.063,
+                    "server": "LiteSpeed",
+                    "powered_by": null,
+                    "technologies": [],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Connection": "Keep-Alive",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Cache-Control": "private, no-cache, no-store, must-revalidate, max-age=0",
+                        "Pragma": "no-cache",
+                        "Content-Type": "text/html",
+                        "Content-Length": "787",
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Server": "LiteSpeed",
+                        "platform": "hostinger",
+                        "panel": "hpanel"
+                    }
+                },
+                "infrastructure": {
+                    "target": "exam.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:34.071941+00:00",
+                    "ip": "147.93.22.204",
+                    "asn": {
+                        "target": "147.93.22.204",
+                        "ip": "147.93.22.204",
+                        "timestamp": "2026-08-06T07:51:34.073044+00:00",
+                        "asn": "47583",
+                        "description": "AS-HOSTINGER - Hostinger International Limited, CY",
+                        "network": "HOSTINGER-HOSTING",
+                        "country": "IN",
+                        "registry": "ripencc",
+                        "cloud_provider": "Unknown"
+                    },
+                    "geoip": {
+                        "target": "147.93.22.204",
+                        "ip": "147.93.22.204",
+                        "timestamp": "2026-08-06T07:51:34.656778+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "UNKNOWN",
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "reverse_dns": {
+                        "target": "147.93.22.204",
+                        "ip": "147.93.22.204",
+                        "timestamp": "2026-08-06T07:51:34.657866+00:00",
+                        "reverse_dns": {
+                            "hostname": null,
+                            "provider_hint": null,
+                            "status": "NOT_FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "exam.cgu-odisha.ac.in",
+                        "ip": "147.93.22.204",
+                        "timestamp": "2026-08-06T07:51:51.528746+00:00",
+                        "ports": [
+                            {
+                                "port": 21,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "FTP",
+                                "risk": "HIGH",
+                                "banner": "220 FTP Server ready.\r "
+                            },
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.0 403 Forbidden\r Connection: close\r Date: Thu, 06 Aug 2026 07:51:40 GMT\r Server: LiteSpeed\r platform: hostinger\r panel: hpanel\r \r "
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "<html><head><title>400 Bad Request</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head><body> <h2>HTTPS is required</h2> <p>This is an SSL protected p"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "V\u0000\u0000\u0000 11.8.8-MariaDB-log\u0000\u0015efN7evC*\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000Iossf*:%J'~h\u0000mysql_native_password\u0000"
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 4
+                        },
+                        "exposure_score": 44,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "FTP exposed on port 21",
+                                "severity": "HIGH",
+                                "port": 21,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            },
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 12.27
+                    },
+                    "exposure_score": 44
+                },
+                "risk": {
+                    "score": 85,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "High risk service exposed: FTP",
+                            "severity": "HIGH"
+                        },
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "SSL certificate invalid or unavailable",
+                            "severity": "HIGH"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "image.info.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.816035Z",
+                "dns": {
+                    "host": "image.info.cgu-odisha.ac.in",
+                    "A": [
+                        "18.155.99.56",
+                        "18.155.99.111",
+                        "18.155.99.64",
+                        "18.155.99.28"
+                    ],
+                    "AAAA": [
+                        "2600:9000:24d8:2600:3:cf9f:b2c0:93a1",
+                        "2600:9000:24d8:9a00:3:cf9f:b2c0:93a1",
+                        "2600:9000:24d8:4c00:3:cf9f:b2c0:93a1",
+                        "2600:9000:24d8:2800:3:cf9f:b2c0:93a1",
+                        "2600:9000:24d8:4600:3:cf9f:b2c0:93a1",
+                        "2600:9000:24d8:f400:3:cf9f:b2c0:93a1",
+                        "2600:9000:24d8:5c00:3:cf9f:b2c0:93a1",
+                        "2600:9000:24d8:7200:3:cf9f:b2c0:93a1"
+                    ],
+                    "CNAME": [
+                        "d33rfzh3b1oeyz.cloudfront.net"
+                    ]
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Amazon",
+                        "commonName": "Amazon ECDSA 256 M04"
+                    },
+                    "subject": {
+                        "commonName": "image.info.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Apr  9 00:00:00 2026 GMT",
+                    "valid_until": "Oct 23 23:59:59 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.039
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://image.info.cgu-odisha.ac.in/",
+                    "status_code": 403,
+                    "response_time": 1.651,
+                    "server": "AkamaiGHost",
+                    "powered_by": null,
+                    "technologies": [
+                        {
+                            "name": "Akamai",
+                            "evidence": "akamai"
+                        }
+                    ],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": true,
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        "content-security-policy": {
+                            "present": true,
+                            "value": "default-src 'self'"
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": true,
+                            "value": "nosniff"
+                        },
+                        "referrer-policy": {
+                            "present": true,
+                            "value": "origin-when-cross-origin"
+                        },
+                        "permissions-policy": {
+                            "present": true,
+                            "value": "geolocation=(self), microphone=()"
+                        }
+                    },
+                    "csp_raw": "default-src 'self'",
+                    "cookies": [
+                        {
+                            "name": "strict",
+                            "secure": false,
+                            "httponly": false,
+                            "samesite": null
+                        }
+                    ],
+                    "waf": {
+                        "detected": true,
+                        "provider": "Akamai"
+                    },
+                    "headers": {
+                        "Content-Type": "text/html",
+                        "Content-Length": "393",
+                        "Connection": "keep-alive",
+                        "Server": "AkamaiGHost",
+                        "Mime-Version": "1.0",
+                        "Expires": "Thu, 06 Aug 2026 07:51:36 GMT",
+                        "Date": "Thu, 06 Aug 2026 07:51:36 GMT",
+                        "Set-Cookie": "strict",
+                        "X-Cache": "Error from cloudfront",
+                        "Via": "1.1 258dae00745f74ffb9f4d3e7381b7212.cloudfront.net (CloudFront)",
+                        "X-Amz-Cf-Pop": "BLR50-P1",
+                        "X-Amz-Cf-Id": "zg4BZyr0RDt8rqLisXz8MOZMmr8z9BZ-V-VyN4_V5JXH0_s8uZLoNQ==",
+                        "X-XSS-Protection": "1; mode=block",
+                        "Referrer-Policy": "origin-when-cross-origin",
+                        "Content-Security-Policy": "default-src 'self'",
+                        "X-Content-Type-Options": "nosniff",
+                        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+                        "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store, private",
+                        "Permissions-Policy": "geolocation=(self), microphone=()"
+                    }
+                },
+                "infrastructure": {
+                    "target": "image.info.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:35.571613+00:00",
+                    "ip": "18.155.99.56",
+                    "asn": {
+                        "target": "18.155.99.56",
+                        "ip": "18.155.99.56",
+                        "timestamp": "2026-08-06T07:51:35.572647+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-CF",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "18.155.99.56",
+                        "ip": "18.155.99.56",
+                        "timestamp": "2026-08-06T07:51:37.387731+00:00",
+                        "geoip": {
+                            "country": "United States",
+                            "country_code": "US",
+                            "city": null,
+                            "latitude": 37.751,
+                            "longitude": -97.822,
+                            "timezone": "America/Chicago"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "18.155.99.56",
+                        "ip": "18.155.99.56",
+                        "timestamp": "2026-08-06T07:51:37.387731+00:00",
+                        "reverse_dns": {
+                            "hostname": "server-18-155-99-56.blr50.r.cloudfront.net",
+                            "provider_hint": null,
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": true,
+                        "provider": "AWS CloudFront",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "Akamai header detected",
+                            "AWS CloudFront header detected",
+                            "AWS CloudFront header detected"
+                        ]
+                    },
+                    "ports": {
+                        "host": "image.info.cgu-odisha.ac.in",
+                        "ip": "18.155.99.56",
+                        "timestamp": "2026-08-06T07:51:51.023009+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Server: CloudFront\r Date: Thu, 06 Aug 2026 07:51:39 GMT\r Content-Type: text/html\r Content-Length: 915\r Connection: close\r X-Cache: Error from cloudfront\r Via: 1.1 5f62a78f44c"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": null
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 2
+                        },
+                        "exposure_score": 4,
+                        "findings": [],
+                        "scan_time": 13.1
+                    },
+                    "exposure_score": 4
+                },
+                "risk": {
+                    "score": 0,
+                    "severity": "LOW",
+                    "findings": []
+                }
+            },
+            {
+                "host": "pis.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.817032Z",
+                "dns": {
+                    "host": "pis.cgu-odisha.ac.in",
+                    "A": [
+                        "65.1.120.153"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Let's Encrypt",
+                        "commonName": "YR1"
+                    },
+                    "subject": {
+                        "commonName": "pis.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Jul 25 11:56:40 2026 GMT",
+                    "valid_until": "Oct 23 11:56:39 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.059
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://pis.cgu-odisha.ac.in/",
+                    "status_code": 200,
+                    "response_time": 0.143,
+                    "server": "Apache",
+                    "powered_by": null,
+                    "technologies": [
+                        {
+                            "name": "Apache",
+                            "evidence": "apache"
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "evidence": "bootstrap"
+                        }
+                    ],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [
+                        {
+                            "name": "PHPSESSID",
+                            "secure": false,
+                            "httponly": false,
+                            "samesite": null
+                        }
+                    ],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Server": "Apache",
+                        "Set-Cookie": "PHPSESSID=84s8uqlcsassenhbidck93pgob; path=/",
+                        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                        "Cache-Control": "no-store, no-cache, must-revalidate",
+                        "Pragma": "no-cache",
+                        "Vary": "Accept-Encoding",
+                        "Content-Encoding": "gzip",
+                        "Content-Length": "4895",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Connection": "Keep-Alive",
+                        "Content-Type": "text/html; charset=UTF-8"
+                    }
+                },
+                "infrastructure": {
+                    "target": "pis.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:34.101597+00:00",
+                    "ip": "65.1.120.153",
+                    "asn": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:34.103004+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-BOM",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:35.320918+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:35.320918+00:00",
+                        "reverse_dns": {
+                            "hostname": "ec2-65-1-120-153.ap-south-1.compute.amazonaws.com",
+                            "provider_hint": "AWS",
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "pis.cgu-odisha.ac.in",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:48.383557+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Apache\r Last-Modified: Thu, 18 Apr 2024 13:24:20 GMT\r ETag: \"4-6165ee38674bb\"\r Accept-Ranges: bytes\r Content-Length: 4\r Connection: close\r"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Apache\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DT"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001\u0013/OAe\u001du\b\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003P]6\u0003;['C-x.\u0000caching_sha2_password\u0000"
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 3
+                        },
+                        "exposure_score": 29,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 12.9
+                    },
+                    "exposure_score": 29
+                },
+                "risk": {
+                    "score": 50,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "recruitment.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.817032Z",
+                "dns": {
+                    "host": "recruitment.cgu-odisha.ac.in",
+                    "A": [
+                        "65.1.120.153"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Let's Encrypt",
+                        "commonName": "YR1"
+                    },
+                    "subject": {
+                        "commonName": "recruitment.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Jun 18 02:51:45 2026 GMT",
+                    "valid_until": "Sep 16 02:51:44 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.075
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://recruitment.cgu-odisha.ac.in/",
+                    "status_code": 200,
+                    "response_time": 0.113,
+                    "server": "Apache",
+                    "powered_by": null,
+                    "technologies": [
+                        {
+                            "name": "Apache",
+                            "evidence": "apache"
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "evidence": "bootstrap"
+                        }
+                    ],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [
+                        {
+                            "name": "PHPSESSID",
+                            "secure": false,
+                            "httponly": false,
+                            "samesite": null
+                        }
+                    ],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Server": "Apache",
+                        "Set-Cookie": "PHPSESSID=rj0cthu0b52f7lsk4r1bgmc9j5; path=/",
+                        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                        "Cache-Control": "no-store, no-cache, must-revalidate",
+                        "Pragma": "no-cache",
+                        "Vary": "Accept-Encoding",
+                        "Content-Encoding": "gzip",
+                        "Content-Length": "3148",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Connection": "Keep-Alive",
+                        "Content-Type": "text/html; charset=UTF-8"
+                    }
+                },
+                "infrastructure": {
+                    "target": "recruitment.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:34.051540+00:00",
+                    "ip": "65.1.120.153",
+                    "asn": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:34.051540+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-BOM",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:35.810544+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:35.812554+00:00",
+                        "reverse_dns": {
+                            "hostname": "ec2-65-1-120-153.ap-south-1.compute.amazonaws.com",
+                            "provider_hint": "AWS",
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "recruitment.cgu-odisha.ac.in",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:48.551271+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:51:37 GMT\r Server: Apache\r Last-Modified: Thu, 18 Apr 2024 13:24:20 GMT\r ETag: \"4-6165ee38674bb\"\r Accept-Ranges: bytes\r Content-Length: 4\r Connection: close\r"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:51:37 GMT\r Server: Apache\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DT"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001Zv\u0012Nw2\u0015L\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000017bD\u001d\u0010 Clgn5\u0000caching_sha2_password\u0000"
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 3
+                        },
+                        "exposure_score": 29,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 12.6
+                    },
+                    "exposure_score": 29
+                },
+                "risk": {
+                    "score": 50,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "stcw.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:33.818221Z",
+                "dns": {
+                    "host": "stcw.cgu-odisha.ac.in",
+                    "A": [
+                        "13.235.10.158"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Let's Encrypt",
+                        "commonName": "YR2"
+                    },
+                    "subject": {
+                        "commonName": "stcw.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Jun 20 22:53:30 2026 GMT",
+                    "valid_until": "Sep 18 22:53:29 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.063
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://stcw.cgu-odisha.ac.in/",
+                    "status_code": 200,
+                    "response_time": 0.104,
+                    "server": "Apache",
+                    "powered_by": null,
+                    "technologies": [
+                        {
+                            "name": "Apache",
+                            "evidence": "apache"
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "evidence": "bootstrap"
+                        }
+                    ],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [
+                        {
+                            "name": "ci_session_medical",
+                            "secure": false,
+                            "httponly": true,
+                            "samesite": null
+                        }
+                    ],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Date": "Thu, 06 Aug 2026 07:51:35 GMT",
+                        "Server": "Apache",
+                        "Access-Control-Allow-Origin": "*",
+                        "Access-Control-Allow-Methods": "GET, POST",
+                        "Access-Control-Allow-Headers": "X-Requested-With",
+                        "Set-Cookie": "ci_session_medical=pcflgkpffbh5m21fkapjhgcp38hditm0; expires=Thu, 06-Aug-2026 09:51:35 GMT; Max-Age=7200; path=/; HttpOnly",
+                        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                        "Cache-Control": "no-store, no-cache, must-revalidate",
+                        "Pragma": "no-cache",
+                        "Vary": "Accept-Encoding",
+                        "Content-Encoding": "gzip",
+                        "Content-Length": "3499",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Connection": "Keep-Alive",
+                        "Content-Type": "text/html; charset=UTF-8"
+                    }
+                },
+                "infrastructure": {
+                    "target": "stcw.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:34.061969+00:00",
+                    "ip": "13.235.10.158",
+                    "asn": {
+                        "target": "13.235.10.158",
+                        "ip": "13.235.10.158",
+                        "timestamp": "2026-08-06T07:51:34.061969+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-BOM",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "13.235.10.158",
+                        "ip": "13.235.10.158",
+                        "timestamp": "2026-08-06T07:51:35.186117+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "13.235.10.158",
+                        "ip": "13.235.10.158",
+                        "timestamp": "2026-08-06T07:51:35.187225+00:00",
+                        "reverse_dns": {
+                            "hostname": "ec2-13-235-10-158.ap-south-1.compute.amazonaws.com",
+                            "provider_hint": "AWS",
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "stcw.cgu-odisha.ac.in",
+                        "ip": "13.235.10.158",
+                        "timestamp": "2026-08-06T07:51:47.653710+00:00",
+                        "ports": [
+                            {
+                                "port": 22,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-SSH",
+                                "risk": "MEDIUM",
+                                "banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.16\r "
+                            },
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Apache\r Last-Modified: Thu, 04 Sep 2025 13:04:11 GMT\r ETag: \"0-63df95b870fb9\"\r Accept-Ranges: bytes\r Connection: close\r Content-Type: text"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:51:36 GMT\r Server: Apache\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DT"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "[\u0000\u0000\u0000 8.0.46-0ubuntu0.22.04.3\u0000\u0000\u0000\\I\f 1LLQ\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000, 7VR}!||Ir\u001d\u0000caching_sha2_password\u0000"
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 4
+                        },
+                        "exposure_score": 37,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 12.35
+                    },
+                    "exposure_score": 37
+                },
+                "risk": {
+                    "score": 50,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "tbi.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:47.654769Z",
+                "dns": {
+                    "host": "tbi.cgu-odisha.ac.in",
+                    "A": [
+                        "65.1.120.153"
+                    ],
+                    "AAAA": [],
+                    "CNAME": []
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "Let's Encrypt",
+                        "commonName": "YR1"
+                    },
+                    "subject": {
+                        "commonName": "tbi.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Jul  3 14:25:32 2026 GMT",
+                    "valid_until": "Oct  1 14:25:31 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.056
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://tbi.cgu-odisha.ac.in/",
+                    "status_code": 200,
+                    "response_time": 0.478,
+                    "server": "Apache",
+                    "powered_by": null,
+                    "technologies": [
+                        {
+                            "name": "Apache",
+                            "evidence": "apache"
+                        },
+                        {
+                            "name": "WordPress",
+                            "evidence": "wp-content"
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "evidence": "bootstrap"
+                        }
+                    ],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": false,
+                            "value": null
+                        },
+                        "content-security-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-frame-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "x-content-type-options": {
+                            "present": false,
+                            "value": null
+                        },
+                        "referrer-policy": {
+                            "present": false,
+                            "value": null
+                        },
+                        "permissions-policy": {
+                            "present": false,
+                            "value": null
+                        }
+                    },
+                    "csp_raw": null,
+                    "cookies": [],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Date": "Thu, 06 Aug 2026 07:51:49 GMT",
+                        "Server": "Apache",
+                        "Link": "<https://tbi.cgu-odisha.ac.in/wp-json/>; rel=\"https://api.w.org/\", <https://tbi.cgu-odisha.ac.in/wp-json/wp/v2/pages/6>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://tbi.cgu-odisha.ac.in/>; rel=shortlink",
+                        "Vary": "Accept-Encoding",
+                        "Content-Encoding": "gzip",
+                        "Content-Length": "15819",
+                        "Keep-Alive": "timeout=5, max=100",
+                        "Connection": "Keep-Alive",
+                        "Content-Type": "text/html; charset=UTF-8"
+                    }
+                },
+                "infrastructure": {
+                    "target": "tbi.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:48.218020+00:00",
+                    "ip": "65.1.120.153",
+                    "asn": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:48.219055+00:00",
+                        "asn": "16509",
+                        "description": "AMAZON-02 - Amazon.com, Inc., US",
+                        "network": "AMAZON-BOM",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "AWS"
+                    },
+                    "geoip": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:49.050383+00:00",
+                        "geoip": {
+                            "country": "India",
+                            "country_code": "IN",
+                            "city": "Mumbai",
+                            "latitude": 19.0748,
+                            "longitude": 72.8856,
+                            "timezone": "Asia/Kolkata"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "AWS",
+                        "confidence": "HIGH",
+                        "evidence": [
+                            "amazon"
+                        ]
+                    },
+                    "reverse_dns": {
+                        "target": "65.1.120.153",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:51:49.051479+00:00",
+                        "reverse_dns": {
+                            "hostname": "ec2-65-1-120-153.ap-south-1.compute.amazonaws.com",
+                            "provider_hint": "AWS",
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "tbi.cgu-odisha.ac.in",
+                        "ip": "65.1.120.153",
+                        "timestamp": "2026-08-06T07:52:02.495508+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 200 OK\r Date: Thu, 06 Aug 2026 07:51:50 GMT\r Server: Apache\r Last-Modified: Thu, 18 Apr 2024 13:24:20 GMT\r ETag: \"4-6165ee38674bb\"\r Accept-Ranges: bytes\r Content-Length: 4\r Connection: close\r"
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.1 400 Bad Request\r Date: Thu, 06 Aug 2026 07:51:50 GMT\r Server: Apache\r Content-Length: 362\r Connection: close\r Content-Type: text/html; charset=iso-8859-1\r \r <!DOCTYPE HTML PUBLIC \"-//IETF//DT"
+                            },
+                            {
+                                "port": 3306,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "MYSQL",
+                                "risk": "CRITICAL",
+                                "banner": "[\u0000\u0000\u0000 8.0.39-0ubuntu0.22.04.1\u0000(\u0001g\u0003\u0004\u001cas\u001aS\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Tj\u000b\u0019K\u007f27R3\u0001|\u0000caching_sha2_password\u0000"
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 3
+                        },
+                        "exposure_score": 29,
+                        "findings": [
+                            {
+                                "category": "Infrastructure",
+                                "issue": "MYSQL exposed on port 3306",
+                                "severity": "CRITICAL",
+                                "port": 3306,
+                                "recommendation": "Restrict internet exposure using firewall or VPN"
+                            }
+                        ],
+                        "scan_time": 12.98
+                    },
+                    "exposure_score": 29
+                },
+                "risk": {
+                    "score": 50,
+                    "severity": "CRITICAL",
+                    "findings": [
+                        {
+                            "issue": "Critical service exposed: MYSQL on port 3306",
+                            "severity": "CRITICAL"
+                        },
+                        {
+                            "issue": "Missing HSTS header",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "Missing Content Security Policy",
+                            "severity": "LOW"
+                        },
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            },
+            {
+                "host": "view.info.cgu-odisha.ac.in",
+                "timestamp": "2026-08-06T07:51:48.383557Z",
+                "dns": {
+                    "host": "view.info.cgu-odisha.ac.in",
+                    "A": [
+                        "128.245.160.41"
+                    ],
+                    "AAAA": [],
+                    "CNAME": [
+                        "tls9ln31-06l-g0724-gjjhb9q9q.view-sap.sfmc-marketing.com"
+                    ]
+                },
+                "ssl": {
+                    "status": "VALID",
+                    "issuer": {
+                        "countryName": "US",
+                        "organizationName": "DigiCert Inc",
+                        "commonName": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                    },
+                    "subject": {
+                        "countryName": "US",
+                        "stateOrProvinceName": "California",
+                        "localityName": "San Francisco",
+                        "organizationName": "Salesforce, Inc.",
+                        "commonName": "view.info.cgu-odisha.ac.in"
+                    },
+                    "valid_from": "Mar 18 00:00:00 2026 GMT",
+                    "valid_until": "Oct  2 23:59:59 2026 GMT",
+                    "tls_version": "TLSv1.3",
+                    "response_time": 0.518
+                },
+                "http": {
+                    "reachable": true,
+                    "url": "https://view.info.cgu-odisha.ac.in/Error.aspx",
+                    "status_code": 200,
+                    "response_time": 1.613,
+                    "server": null,
+                    "powered_by": null,
+                    "technologies": [],
+                    "security_headers": {
+                        "strict-transport-security": {
+                            "present": true,
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        "content-security-policy": {
+                            "present": true,
+                            "value": "default-src 'self'; frame-ancestors 'self'"
+                        },
+                        "x-frame-options": {
+                            "present": true,
+                            "value": "SAMEORIGIN"
+                        },
+                        "x-content-type-options": {
+                            "present": true,
+                            "value": "nosniff"
+                        },
+                        "referrer-policy": {
+                            "present": true,
+                            "value": "origin-when-cross-origin"
+                        },
+                        "permissions-policy": {
+                            "present": true,
+                            "value": "geolocation=(self), microphone=()"
+                        }
+                    },
+                    "csp_raw": "default-src 'self'; frame-ancestors 'self'",
+                    "cookies": [
+                        {
+                            "name": "strict",
+                            "secure": false,
+                            "httponly": false,
+                            "samesite": null
+                        }
+                    ],
+                    "waf": {
+                        "detected": false
+                    },
+                    "headers": {
+                        "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store, private",
+                        "Content-Type": "text/html; charset=utf-8",
+                        "Content-Security-Policy": "default-src 'self'; frame-ancestors 'self'",
+                        "X-Frame-Options": "SAMEORIGIN",
+                        "X-Content-Type-Options": "nosniff",
+                        "Referrer-Policy": "origin-when-cross-origin",
+                        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+                        "X-XSS-Protection": "1; mode=block",
+                        "Permissions-Policy": "geolocation=(self), microphone=()",
+                        "Set-Cookie": "strict",
+                        "Date": "Thu, 06 Aug 2026 07:51:52 GMT",
+                        "Connection": "close",
+                        "Content-Length": "932"
+                    }
+                },
+                "infrastructure": {
+                    "target": "view.info.cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:51:50.964220+00:00",
+                    "ip": "128.245.160.41",
+                    "asn": {
+                        "target": "128.245.160.41",
+                        "ip": "128.245.160.41",
+                        "timestamp": "2026-08-06T07:51:50.970822+00:00",
+                        "asn": "14340",
+                        "description": "SALESFORCE - Salesforce.com, Inc., US",
+                        "network": "SALESF-3",
+                        "country": null,
+                        "registry": "arin",
+                        "cloud_provider": "Unknown"
+                    },
+                    "geoip": {
+                        "target": "128.245.160.41",
+                        "ip": "128.245.160.41",
+                        "timestamp": "2026-08-06T07:51:51.775022+00:00",
+                        "geoip": {
+                            "country": "United States",
+                            "country_code": "US",
+                            "city": null,
+                            "latitude": 37.751,
+                            "longitude": -97.822,
+                            "timezone": "America/Chicago"
+                        }
+                    },
+                    "cloud": {
+                        "provider": "UNKNOWN",
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "reverse_dns": {
+                        "target": "128.245.160.41",
+                        "ip": "128.245.160.41",
+                        "timestamp": "2026-08-06T07:51:51.777190+00:00",
+                        "reverse_dns": {
+                            "hostname": "aig41.mta.exacttarget.com",
+                            "provider_hint": null,
+                            "status": "FOUND"
+                        }
+                    },
+                    "cdn": {
+                        "detected": false,
+                        "provider": null,
+                        "confidence": "LOW",
+                        "evidence": []
+                    },
+                    "ports": {
+                        "host": "view.info.cgu-odisha.ac.in",
+                        "ip": "128.245.160.41",
+                        "timestamp": "2026-08-06T07:52:06.796337+00:00",
+                        "ports": [
+                            {
+                                "port": 80,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "HTTP",
+                                "risk": "LOW",
+                                "banner": "HTTP/1.0 301 Moved Permanently\r Location: https:///\r Connection: close\r Content-Length: 0\r \r "
+                            },
+                            {
+                                "port": 443,
+                                "protocol": "TCP",
+                                "state": "OPEN",
+                                "service": "GIT-HTTPS",
+                                "risk": "LOW",
+                                "banner": null
+                            }
+                        ],
+                        "summary": {
+                            "total_scanned": 243,
+                            "open": 2
+                        },
+                        "exposure_score": 4,
+                        "findings": [],
+                        "scan_time": 13.06
+                    },
+                    "exposure_score": 4
+                },
+                "risk": {
+                    "score": 5,
+                    "severity": "LOW",
+                    "findings": [
+                        {
+                            "issue": "No WAF/CDN detected",
+                            "severity": "INFO"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "risk_assessment": {
+        "engine": "SentinelX ASM Risk Engine v3",
+        "risk_score": 62,
+        "severity": "HIGH",
+        "total_findings": 10,
+        "scan_time": "2026-08-06T07:52:06.799772Z",
+        "findings": [
+            {
+                "category": "SSL",
+                "issue": "Invalid SSL certificate",
+                "severity": "HIGH",
+                "score": 20,
+                "confidence": "HIGH",
+                "impact": "TECHNICAL",
+                "recommendation": "Renew or fix certificate chain"
+            },
+            {
+                "category": "Security Headers",
+                "issue": "Missing strict-transport-security",
+                "severity": "MEDIUM",
+                "score": 4,
+                "confidence": "MEDIUM",
+                "impact": "TECHNICAL",
+                "recommendation": "Implement strict-transport-security"
+            },
+            {
+                "category": "Security Headers",
+                "issue": "Missing content-security-policy",
+                "severity": "MEDIUM",
+                "score": 5,
+                "confidence": "MEDIUM",
+                "impact": "TECHNICAL",
+                "recommendation": "Implement content-security-policy"
+            },
+            {
+                "category": "Security Headers",
+                "issue": "Missing x-frame-options",
+                "severity": "MEDIUM",
+                "score": 3,
+                "confidence": "MEDIUM",
+                "impact": "TECHNICAL",
+                "recommendation": "Implement x-frame-options"
+            },
+            {
+                "category": "Security Headers",
+                "issue": "Missing x-content-type-options",
+                "severity": "MEDIUM",
+                "score": 3,
+                "confidence": "MEDIUM",
+                "impact": "TECHNICAL",
+                "recommendation": "Implement x-content-type-options"
+            },
+            {
+                "category": "Security Headers",
+                "issue": "Missing referrer-policy",
+                "severity": "MEDIUM",
+                "score": 2,
+                "confidence": "MEDIUM",
+                "impact": "TECHNICAL",
+                "recommendation": "Implement referrer-policy"
+            },
+            {
+                "category": "Security Headers",
+                "issue": "Missing permissions-policy",
+                "severity": "MEDIUM",
+                "score": 2,
+                "confidence": "MEDIUM",
+                "impact": "TECHNICAL",
+                "recommendation": "Implement permissions-policy"
+            },
+            {
+                "category": "CSP",
+                "issue": "Content Security Policy missing",
+                "severity": "MEDIUM",
+                "score": 10,
+                "confidence": "HIGH",
+                "impact": "TECHNICAL",
+                "recommendation": "Deploy restrictive CSP"
+            },
+            {
+                "category": "Email Security",
+                "issue": "DMARC policy monitoring only",
+                "severity": "MEDIUM",
+                "score": 8,
+                "confidence": "HIGH",
+                "impact": "BUSINESS",
+                "recommendation": "Move DMARC policy to quarantine/reject"
+            },
+            {
+                "category": "Email Security",
+                "issue": "DKIM selector not detected",
+                "severity": "MEDIUM",
+                "score": 5,
+                "confidence": "MEDIUM",
+                "impact": "TECHNICAL",
+                "recommendation": "Enable DKIM signing"
+            }
+        ],
+        "summary": {
+            "critical_findings": 1,
+            "recommendation": "Prioritize internet exposed assets and high confidence findings"
+        }
+    },
+    "asset_graph": {
+        "graph_metadata": {
+            "engine": "SentinelX Asset Graph Engine",
+            "version": "1.0",
+            "created": "2026-08-06T07:52:06.799772Z"
+        },
+        "nodes": [
+            {
+                "id": "5cc2a3b6-7c89-44de-83e4-860c15329eb1",
+                "type": "Organization",
+                "name": "cgu-odisha.ac.in",
+                "properties": {}
+            },
+            {
+                "id": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "type": "Domain",
+                "name": "cgu-odisha.ac.in",
+                "properties": {
+                    "domain": "cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:49:57.926221Z",
+                    "whois": {
+                        "registrar": "ERNET India",
+                        "organization": null,
+                        "created": "2020-03-23 16:32:39.567000+00:00",
+                        "updated": "2025-09-20 12:52:47.713000+00:00",
+                        "expires": "2030-03-23 16:32:39.567000+00:00",
+                        "status": "ok https://icann.org/epp#ok",
+                        "emails": "tejalt@eis.ernet.in"
+                    },
+                    "nameservers": [
+                        "macy.ns.cloudflare.com",
+                        "howard.ns.cloudflare.com"
+                    ],
+                    "dnssec": false,
+                    "infrastructure": {
+                        "ip": "3.108.140.28",
+                        "asn": "16509",
+                        "organization": "AMAZON-02 - Amazon.com, Inc., US",
+                        "country": "US",
+                        "reverse_dns": "ec2-3-108-140-28.ap-south-1.compute.amazonaws.com"
+                    },
+                    "tld": {
+                        "tld": ".in",
+                        "length": 16,
+                        "subdomain": true
+                    },
+                    "reputation": {
+                        "score": 0,
+                        "severity": "LOW",
+                        "findings": []
+                    }
+                }
+            },
+            {
+                "id": "988b43f0-c628-4d50-8293-99549903b291",
+                "type": "IPv4",
+                "name": "3.108.140.28",
+                "properties": {}
+            },
+            {
+                "id": "7855fd79-08dd-4e50-856a-0f2e3b155f65",
+                "type": "Certificate",
+                "name": "Unknown",
+                "properties": {
+                    "domain": "cgu-odisha.ac.in",
+                    "timestamp": "2026-08-06T07:50:00.693999+00:00",
+                    "ssl": {
+                        "status": "VALID",
+                        "verified": true,
+                        "issuer": {
+                            "countryName": "US",
+                            "organizationName": "Let's Encrypt",
+                            "commonName": "YR1"
+                        },
+                        "subject": {
+                            "commonName": "cgu-odisha.ac.in"
+                        },
+                        "san": [
+                            "cgu-odisha.ac.in"
+                        ],
+                        "san_count": 1,
+                        "wildcard": false,
+                        "self_signed": false,
+                        "valid_from": "Jul 14 06:53:05 2026 GMT",
+                        "valid_until": "Oct 12 06:53:04 2026 GMT",
+                        "days_remaining": 66,
+                        "tls_version": "TLSv1.3",
+                        "cipher_suite": "TLS_AES_256_GCM_SHA384",
+                        "cipher_bits": 256,
+                        "fingerprint_sha256": "60d1ff0cdee101cd714b1c0ee8900875de7cc45c5886eeecd2c68b7e30f81aa6",
+                        "ocsp_urls": [],
+                        "security_checks": {
+                            "tls_secure": true,
+                            "tls_version_ok": true,
+                            "certificate_valid": true,
+                            "not_expired": true,
+                            "not_self_signed": true,
+                            "strong_cipher": true
+                        }
+                    }
+                }
+            },
+            {
+                "id": "5db323c0-fb25-4ff3-b469-6ccc0aa3d6d7",
+                "type": "Subdomain",
+                "name": "admission.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 75,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Critical service exposed: POSTGRESQL on port 5432",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "admission.cgu-odisha.ac.in",
+                        "A": [
+                            "3.108.140.28"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "49407493-0cda-48a7-a831-c45c6f21a4f6",
+                "type": "IPv4",
+                "name": "3.108.140.28",
+                "properties": {}
+            },
+            {
+                "id": "2851af37-8278-4e09-95a0-1fde9b925531",
+                "type": "Subdomain",
+                "name": "aic.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 50,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "aic.cgu-odisha.ac.in",
+                        "A": [
+                            "65.1.120.153"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "9f44836c-9517-4a08-ac82-7c5c93733259",
+                "type": "IPv4",
+                "name": "65.1.120.153",
+                "properties": {}
+            },
+            {
+                "id": "71a866d8-3311-476b-8c5d-9cc03feb2923",
+                "type": "Technology",
+                "name": {
+                    "name": "Apache",
+                    "evidence": "apache"
+                },
+                "properties": {}
+            },
+            {
+                "id": "340d2781-334d-4a6f-8c1e-c86f8d56e2dc",
+                "type": "Technology",
+                "name": {
+                    "name": "WordPress",
+                    "evidence": "wp-content"
+                },
+                "properties": {}
+            },
+            {
+                "id": "c547c40c-0a84-4c09-a9a2-9222fb0e3bfd",
+                "type": "Technology",
+                "name": {
+                    "name": "Bootstrap",
+                    "evidence": "bootstrap"
+                },
+                "properties": {}
+            },
+            {
+                "id": "690a0618-5a6b-4b0d-a875-202e13f76bab",
+                "type": "Subdomain",
+                "name": "click.info.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 5,
+                        "severity": "LOW",
+                        "findings": [
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "click.info.cgu-odisha.ac.in",
+                        "A": [
+                            "128.245.144.43"
+                        ],
+                        "AAAA": [],
+                        "CNAME": [
+                            "tltfz9jlrm523dzfmvtzq2sl-myy.click-sap.sfmc-marketing.com"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "08a9ef27-599a-4b0b-ae7f-7a7de15616c7",
+                "type": "IPv4",
+                "name": "128.245.144.43",
+                "properties": {}
+            },
+            {
+                "id": "81f54f38-4021-43ae-8062-2fa8700f0409",
+                "type": "Subdomain",
+                "name": "cloud.info.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 25,
+                        "severity": "MEDIUM",
+                        "findings": [
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "cloud.info.cgu-odisha.ac.in",
+                        "A": [
+                            "128.245.128.22"
+                        ],
+                        "AAAA": [],
+                        "CNAME": [
+                            "tlwknq2kj2b3v8w7qjqgnrr9jgd1.cp-sap.sfmc-content.com"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "8010c38f-417f-428b-938e-9905313b43f3",
+                "type": "IPv4",
+                "name": "128.245.128.22",
+                "properties": {}
+            },
+            {
+                "id": "df9817cc-1d21-43b6-a8fe-5ce34eab425d",
+                "type": "Subdomain",
+                "name": "crm.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 75,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Critical service exposed: POSTGRESQL on port 5432",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "crm.cgu-odisha.ac.in",
+                        "A": [
+                            "3.108.140.28"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "fe5dee5b-9e10-4d95-ae2d-315e21abf609",
+                "type": "IPv4",
+                "name": "3.108.140.28",
+                "properties": {}
+            },
+            {
+                "id": "ee4b2ac2-8a59-40ae-9812-f868d6c213a1",
+                "type": "Subdomain",
+                "name": "exam.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 85,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "High risk service exposed: FTP",
+                                "severity": "HIGH"
+                            },
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "SSL certificate invalid or unavailable",
+                                "severity": "HIGH"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "exam.cgu-odisha.ac.in",
+                        "A": [
+                            "147.93.22.204"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "3f40c5b1-6c2f-4f6d-8854-2ddd266286a3",
+                "type": "IPv4",
+                "name": "147.93.22.204",
+                "properties": {}
+            },
+            {
+                "id": "c4e5d22d-1ee1-4427-88e6-fab7690bbdcd",
+                "type": "Subdomain",
+                "name": "image.info.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 0,
+                        "severity": "LOW",
+                        "findings": []
+                    },
+                    "dns": {
+                        "host": "image.info.cgu-odisha.ac.in",
+                        "A": [
+                            "18.155.99.56",
+                            "18.155.99.111",
+                            "18.155.99.64",
+                            "18.155.99.28"
+                        ],
+                        "AAAA": [
+                            "2600:9000:24d8:2600:3:cf9f:b2c0:93a1",
+                            "2600:9000:24d8:9a00:3:cf9f:b2c0:93a1",
+                            "2600:9000:24d8:4c00:3:cf9f:b2c0:93a1",
+                            "2600:9000:24d8:2800:3:cf9f:b2c0:93a1",
+                            "2600:9000:24d8:4600:3:cf9f:b2c0:93a1",
+                            "2600:9000:24d8:f400:3:cf9f:b2c0:93a1",
+                            "2600:9000:24d8:5c00:3:cf9f:b2c0:93a1",
+                            "2600:9000:24d8:7200:3:cf9f:b2c0:93a1"
+                        ],
+                        "CNAME": [
+                            "d33rfzh3b1oeyz.cloudfront.net"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "b1a17336-b1b6-4b71-ac96-a8902c024b8c",
+                "type": "IPv4",
+                "name": "18.155.99.56",
+                "properties": {}
+            },
+            {
+                "id": "0df53f62-37af-454d-9f21-89a1a1ba61ff",
+                "type": "IPv4",
+                "name": "18.155.99.111",
+                "properties": {}
+            },
+            {
+                "id": "2252f311-0195-4fec-b5e7-74fbba878261",
+                "type": "IPv4",
+                "name": "18.155.99.64",
+                "properties": {}
+            },
+            {
+                "id": "ac8f4c00-ca31-4b4f-bf37-68b4c460f5c7",
+                "type": "IPv4",
+                "name": "18.155.99.28",
+                "properties": {}
+            },
+            {
+                "id": "d145e4e7-9205-4a12-91ed-f423ff602264",
+                "type": "Technology",
+                "name": {
+                    "name": "Akamai",
+                    "evidence": "akamai"
+                },
+                "properties": {}
+            },
+            {
+                "id": "948580e5-da2a-483b-bb4b-30315cce6262",
+                "type": "Subdomain",
+                "name": "pis.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 50,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "pis.cgu-odisha.ac.in",
+                        "A": [
+                            "65.1.120.153"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "c95e7dec-3881-4a83-9aab-de457610387c",
+                "type": "IPv4",
+                "name": "65.1.120.153",
+                "properties": {}
+            },
+            {
+                "id": "3880a777-1220-406d-adec-b3d4cf6f0db8",
+                "type": "Technology",
+                "name": {
+                    "name": "Apache",
+                    "evidence": "apache"
+                },
+                "properties": {}
+            },
+            {
+                "id": "34621dba-b97d-45da-85e0-b5a7c959e449",
+                "type": "Technology",
+                "name": {
+                    "name": "Bootstrap",
+                    "evidence": "bootstrap"
+                },
+                "properties": {}
+            },
+            {
+                "id": "5b6c194a-32c1-4eb2-b23e-c9d45546b61f",
+                "type": "Subdomain",
+                "name": "recruitment.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 50,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "recruitment.cgu-odisha.ac.in",
+                        "A": [
+                            "65.1.120.153"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "c26d2142-c108-44b7-a2f1-e920718df1cf",
+                "type": "IPv4",
+                "name": "65.1.120.153",
+                "properties": {}
+            },
+            {
+                "id": "abefafbb-0483-48e0-b4a3-0e17f3c73433",
+                "type": "Technology",
+                "name": {
+                    "name": "Apache",
+                    "evidence": "apache"
+                },
+                "properties": {}
+            },
+            {
+                "id": "10f392db-7a31-45ea-9406-91f73e8dc114",
+                "type": "Technology",
+                "name": {
+                    "name": "Bootstrap",
+                    "evidence": "bootstrap"
+                },
+                "properties": {}
+            },
+            {
+                "id": "5f757068-bfc1-4b99-af17-faed2130ff4c",
+                "type": "Subdomain",
+                "name": "stcw.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 50,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "stcw.cgu-odisha.ac.in",
+                        "A": [
+                            "13.235.10.158"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "f5b8f268-a333-43f0-be57-1f40f5fdffac",
+                "type": "IPv4",
+                "name": "13.235.10.158",
+                "properties": {}
+            },
+            {
+                "id": "68e76d49-2862-4670-bd2d-1b1424754faf",
+                "type": "Technology",
+                "name": {
+                    "name": "Apache",
+                    "evidence": "apache"
+                },
+                "properties": {}
+            },
+            {
+                "id": "c90393a8-ceca-4fbb-9815-714026416392",
+                "type": "Technology",
+                "name": {
+                    "name": "Bootstrap",
+                    "evidence": "bootstrap"
+                },
+                "properties": {}
+            },
+            {
+                "id": "7e1da425-cb5b-4161-a0e3-3cc4a9ece2a7",
+                "type": "Subdomain",
+                "name": "tbi.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 50,
+                        "severity": "CRITICAL",
+                        "findings": [
+                            {
+                                "issue": "Critical service exposed: MYSQL on port 3306",
+                                "severity": "CRITICAL"
+                            },
+                            {
+                                "issue": "Missing HSTS header",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "Missing Content Security Policy",
+                                "severity": "LOW"
+                            },
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "tbi.cgu-odisha.ac.in",
+                        "A": [
+                            "65.1.120.153"
+                        ],
+                        "AAAA": [],
+                        "CNAME": []
+                    }
+                }
+            },
+            {
+                "id": "a69680bf-5e86-4012-9a06-101c10c2450e",
+                "type": "IPv4",
+                "name": "65.1.120.153",
+                "properties": {}
+            },
+            {
+                "id": "f2266f89-438f-4530-bcfd-e4b62b161723",
+                "type": "Technology",
+                "name": {
+                    "name": "Apache",
+                    "evidence": "apache"
+                },
+                "properties": {}
+            },
+            {
+                "id": "40482cdf-a392-413a-a7a4-80f161105e61",
+                "type": "Technology",
+                "name": {
+                    "name": "WordPress",
+                    "evidence": "wp-content"
+                },
+                "properties": {}
+            },
+            {
+                "id": "94a95e78-2d8d-4c9f-90c8-58764d6b3076",
+                "type": "Technology",
+                "name": {
+                    "name": "Bootstrap",
+                    "evidence": "bootstrap"
+                },
+                "properties": {}
+            },
+            {
+                "id": "2044fc24-c38b-443f-88ea-513ad7282e32",
+                "type": "Subdomain",
+                "name": "view.info.cgu-odisha.ac.in",
+                "properties": {
+                    "risk": {
+                        "score": 5,
+                        "severity": "LOW",
+                        "findings": [
+                            {
+                                "issue": "No WAF/CDN detected",
+                                "severity": "INFO"
+                            }
+                        ]
+                    },
+                    "dns": {
+                        "host": "view.info.cgu-odisha.ac.in",
+                        "A": [
+                            "128.245.160.41"
+                        ],
+                        "AAAA": [],
+                        "CNAME": [
+                            "tls9ln31-06l-g0724-gjjhb9q9q.view-sap.sfmc-marketing.com"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "1f2b7b8c-e529-48e9-9595-c61994a1fc7e",
+                "type": "IPv4",
+                "name": "128.245.160.41",
+                "properties": {}
+            },
+            {
+                "id": "3958a477-31ae-4398-9333-5bc41fa8484b",
+                "type": "Risk",
+                "name": "Security Risk",
+                "properties": {
+                    "engine": "SentinelX ASM Risk Engine v3",
+                    "risk_score": 62,
+                    "severity": "HIGH",
+                    "total_findings": 10,
+                    "scan_time": "2026-08-06T07:52:06.799772Z",
+                    "findings": [
+                        {
+                            "category": "SSL",
+                            "issue": "Invalid SSL certificate",
+                            "severity": "HIGH",
+                            "score": 20,
+                            "confidence": "HIGH",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Renew or fix certificate chain"
+                        },
+                        {
+                            "category": "Security Headers",
+                            "issue": "Missing strict-transport-security",
+                            "severity": "MEDIUM",
+                            "score": 4,
+                            "confidence": "MEDIUM",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Implement strict-transport-security"
+                        },
+                        {
+                            "category": "Security Headers",
+                            "issue": "Missing content-security-policy",
+                            "severity": "MEDIUM",
+                            "score": 5,
+                            "confidence": "MEDIUM",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Implement content-security-policy"
+                        },
+                        {
+                            "category": "Security Headers",
+                            "issue": "Missing x-frame-options",
+                            "severity": "MEDIUM",
+                            "score": 3,
+                            "confidence": "MEDIUM",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Implement x-frame-options"
+                        },
+                        {
+                            "category": "Security Headers",
+                            "issue": "Missing x-content-type-options",
+                            "severity": "MEDIUM",
+                            "score": 3,
+                            "confidence": "MEDIUM",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Implement x-content-type-options"
+                        },
+                        {
+                            "category": "Security Headers",
+                            "issue": "Missing referrer-policy",
+                            "severity": "MEDIUM",
+                            "score": 2,
+                            "confidence": "MEDIUM",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Implement referrer-policy"
+                        },
+                        {
+                            "category": "Security Headers",
+                            "issue": "Missing permissions-policy",
+                            "severity": "MEDIUM",
+                            "score": 2,
+                            "confidence": "MEDIUM",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Implement permissions-policy"
+                        },
+                        {
+                            "category": "CSP",
+                            "issue": "Content Security Policy missing",
+                            "severity": "MEDIUM",
+                            "score": 10,
+                            "confidence": "HIGH",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Deploy restrictive CSP"
+                        },
+                        {
+                            "category": "Email Security",
+                            "issue": "DMARC policy monitoring only",
+                            "severity": "MEDIUM",
+                            "score": 8,
+                            "confidence": "HIGH",
+                            "impact": "BUSINESS",
+                            "recommendation": "Move DMARC policy to quarantine/reject"
+                        },
+                        {
+                            "category": "Email Security",
+                            "issue": "DKIM selector not detected",
+                            "severity": "MEDIUM",
+                            "score": 5,
+                            "confidence": "MEDIUM",
+                            "impact": "TECHNICAL",
+                            "recommendation": "Enable DKIM signing"
+                        }
+                    ],
+                    "summary": {
+                        "critical_findings": 1,
+                        "recommendation": "Prioritize internet exposed assets and high confidence findings"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "5cc2a3b6-7c89-44de-83e4-860c15329eb1",
+                "target": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "relation": "owns"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "988b43f0-c628-4d50-8293-99549903b291",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "7855fd79-08dd-4e50-856a-0f2e3b155f65",
+                "relation": "uses_certificate"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "5db323c0-fb25-4ff3-b469-6ccc0aa3d6d7",
+                "relation": "contains"
+            },
+            {
+                "source": "5db323c0-fb25-4ff3-b469-6ccc0aa3d6d7",
+                "target": "49407493-0cda-48a7-a831-c45c6f21a4f6",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "2851af37-8278-4e09-95a0-1fde9b925531",
+                "relation": "contains"
+            },
+            {
+                "source": "2851af37-8278-4e09-95a0-1fde9b925531",
+                "target": "9f44836c-9517-4a08-ac82-7c5c93733259",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "2851af37-8278-4e09-95a0-1fde9b925531",
+                "target": "71a866d8-3311-476b-8c5d-9cc03feb2923",
+                "relation": "uses"
+            },
+            {
+                "source": "2851af37-8278-4e09-95a0-1fde9b925531",
+                "target": "340d2781-334d-4a6f-8c1e-c86f8d56e2dc",
+                "relation": "uses"
+            },
+            {
+                "source": "2851af37-8278-4e09-95a0-1fde9b925531",
+                "target": "c547c40c-0a84-4c09-a9a2-9222fb0e3bfd",
+                "relation": "uses"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "690a0618-5a6b-4b0d-a875-202e13f76bab",
+                "relation": "contains"
+            },
+            {
+                "source": "690a0618-5a6b-4b0d-a875-202e13f76bab",
+                "target": "08a9ef27-599a-4b0b-ae7f-7a7de15616c7",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "81f54f38-4021-43ae-8062-2fa8700f0409",
+                "relation": "contains"
+            },
+            {
+                "source": "81f54f38-4021-43ae-8062-2fa8700f0409",
+                "target": "8010c38f-417f-428b-938e-9905313b43f3",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "df9817cc-1d21-43b6-a8fe-5ce34eab425d",
+                "relation": "contains"
+            },
+            {
+                "source": "df9817cc-1d21-43b6-a8fe-5ce34eab425d",
+                "target": "fe5dee5b-9e10-4d95-ae2d-315e21abf609",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "ee4b2ac2-8a59-40ae-9812-f868d6c213a1",
+                "relation": "contains"
+            },
+            {
+                "source": "ee4b2ac2-8a59-40ae-9812-f868d6c213a1",
+                "target": "3f40c5b1-6c2f-4f6d-8854-2ddd266286a3",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "c4e5d22d-1ee1-4427-88e6-fab7690bbdcd",
+                "relation": "contains"
+            },
+            {
+                "source": "c4e5d22d-1ee1-4427-88e6-fab7690bbdcd",
+                "target": "b1a17336-b1b6-4b71-ac96-a8902c024b8c",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "c4e5d22d-1ee1-4427-88e6-fab7690bbdcd",
+                "target": "0df53f62-37af-454d-9f21-89a1a1ba61ff",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "c4e5d22d-1ee1-4427-88e6-fab7690bbdcd",
+                "target": "2252f311-0195-4fec-b5e7-74fbba878261",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "c4e5d22d-1ee1-4427-88e6-fab7690bbdcd",
+                "target": "ac8f4c00-ca31-4b4f-bf37-68b4c460f5c7",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "c4e5d22d-1ee1-4427-88e6-fab7690bbdcd",
+                "target": "d145e4e7-9205-4a12-91ed-f423ff602264",
+                "relation": "uses"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "948580e5-da2a-483b-bb4b-30315cce6262",
+                "relation": "contains"
+            },
+            {
+                "source": "948580e5-da2a-483b-bb4b-30315cce6262",
+                "target": "c95e7dec-3881-4a83-9aab-de457610387c",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "948580e5-da2a-483b-bb4b-30315cce6262",
+                "target": "3880a777-1220-406d-adec-b3d4cf6f0db8",
+                "relation": "uses"
+            },
+            {
+                "source": "948580e5-da2a-483b-bb4b-30315cce6262",
+                "target": "34621dba-b97d-45da-85e0-b5a7c959e449",
+                "relation": "uses"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "5b6c194a-32c1-4eb2-b23e-c9d45546b61f",
+                "relation": "contains"
+            },
+            {
+                "source": "5b6c194a-32c1-4eb2-b23e-c9d45546b61f",
+                "target": "c26d2142-c108-44b7-a2f1-e920718df1cf",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "5b6c194a-32c1-4eb2-b23e-c9d45546b61f",
+                "target": "abefafbb-0483-48e0-b4a3-0e17f3c73433",
+                "relation": "uses"
+            },
+            {
+                "source": "5b6c194a-32c1-4eb2-b23e-c9d45546b61f",
+                "target": "10f392db-7a31-45ea-9406-91f73e8dc114",
+                "relation": "uses"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "5f757068-bfc1-4b99-af17-faed2130ff4c",
+                "relation": "contains"
+            },
+            {
+                "source": "5f757068-bfc1-4b99-af17-faed2130ff4c",
+                "target": "f5b8f268-a333-43f0-be57-1f40f5fdffac",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "5f757068-bfc1-4b99-af17-faed2130ff4c",
+                "target": "68e76d49-2862-4670-bd2d-1b1424754faf",
+                "relation": "uses"
+            },
+            {
+                "source": "5f757068-bfc1-4b99-af17-faed2130ff4c",
+                "target": "c90393a8-ceca-4fbb-9815-714026416392",
+                "relation": "uses"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "7e1da425-cb5b-4161-a0e3-3cc4a9ece2a7",
+                "relation": "contains"
+            },
+            {
+                "source": "7e1da425-cb5b-4161-a0e3-3cc4a9ece2a7",
+                "target": "a69680bf-5e86-4012-9a06-101c10c2450e",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7e1da425-cb5b-4161-a0e3-3cc4a9ece2a7",
+                "target": "f2266f89-438f-4530-bcfd-e4b62b161723",
+                "relation": "uses"
+            },
+            {
+                "source": "7e1da425-cb5b-4161-a0e3-3cc4a9ece2a7",
+                "target": "40482cdf-a392-413a-a7a4-80f161105e61",
+                "relation": "uses"
+            },
+            {
+                "source": "7e1da425-cb5b-4161-a0e3-3cc4a9ece2a7",
+                "target": "94a95e78-2d8d-4c9f-90c8-58764d6b3076",
+                "relation": "uses"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "2044fc24-c38b-443f-88ea-513ad7282e32",
+                "relation": "contains"
+            },
+            {
+                "source": "2044fc24-c38b-443f-88ea-513ad7282e32",
+                "target": "1f2b7b8c-e529-48e9-9595-c61994a1fc7e",
+                "relation": "resolves_to"
+            },
+            {
+                "source": "7f87653f-5d03-42de-8429-7bd613a6c773",
+                "target": "3958a477-31ae-4398-9333-5bc41fa8484b",
+                "relation": "has_risk"
+            }
+        ],
+        "statistics": {
+            "nodes": 45,
+            "edges": 44
+        }
+    },
+    "attack_surface": {
+        "total_subdomains": 12,
+        "resolved_assets": 12,
+        "open_ports_summary": [
+            {
+                "port": 80,
+                "service": "HTTP",
+                "risk": "LOW"
+            },
+            {
+                "port": 443,
+                "service": "GIT-HTTPS",
+                "risk": "LOW"
+            },
+            {
+                "port": 3306,
+                "service": "MYSQL",
+                "risk": "CRITICAL"
+            },
+            {
+                "port": 5432,
+                "service": "POSTGRESQL",
+                "risk": "CRITICAL"
+            }
+        ],
+        "technologies_detected": [
+            {
+                "name": "WordPress",
+                "evidence": "wordpress"
+            }
+        ],
+        "email_provider": "Google Workspace",
+        "email_risk_score": 18,
+        "cloud_provider": "AWS",
+        "cdn_provider": "Cloudflare",
+        "waf_detected": false,
+        "waf_provider": null,
+        "invalid_ssl_assets": [
+            "exam.cgu-odisha.ac.in"
+        ],
+        "missing_hsts_assets": [
+            "admission.cgu-odisha.ac.in",
+            "aic.cgu-odisha.ac.in",
+            "cloud.info.cgu-odisha.ac.in",
+            "crm.cgu-odisha.ac.in",
+            "exam.cgu-odisha.ac.in",
+            "pis.cgu-odisha.ac.in",
+            "recruitment.cgu-odisha.ac.in",
+            "stcw.cgu-odisha.ac.in",
+            "tbi.cgu-odisha.ac.in"
+        ],
+        "missing_csp_assets": [
+            "admission.cgu-odisha.ac.in",
+            "aic.cgu-odisha.ac.in",
+            "cloud.info.cgu-odisha.ac.in",
+            "crm.cgu-odisha.ac.in",
+            "exam.cgu-odisha.ac.in",
+            "pis.cgu-odisha.ac.in",
+            "recruitment.cgu-odisha.ac.in",
+            "stcw.cgu-odisha.ac.in",
+            "tbi.cgu-odisha.ac.in"
+        ],
+        "sensitive_assets": [],
+        "critical_ports": [
+            {
+                "port": 3306,
+                "service": "MYSQL",
+                "risk": "CRITICAL"
+            },
+            {
+                "port": 5432,
+                "service": "POSTGRESQL",
+                "risk": "CRITICAL"
+            }
+        ],
+        "exposure_score": 54
+    }
+}

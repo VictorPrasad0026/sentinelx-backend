@@ -7,8 +7,8 @@ import json
 import urllib.request
 import urllib.error
 
-GROQ_API_KEY = "YOUR_GROQ_API_KEY_HERE"
-MODEL        = "llama-3.3-70b-versatile"
+GROQ_API_KEY = "AQ.Ab8RN6KHXcBtbTtsIFao84cgjrb9fAjmFAF14cPutEAeO1OpIA"
+MODEL        = "gemini-2.5-flash"
 
 
 def complete(system: str, user: str, max_tokens: int = 1024) -> str:
