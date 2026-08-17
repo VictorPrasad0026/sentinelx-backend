@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sentinelx-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn api_server:app
+    plan: free

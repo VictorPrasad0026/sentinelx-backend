@@ -7,13 +7,13 @@ import json
 import urllib.request
 import urllib.error
 
-GROQ_API_KEY = "AQ.Ab8RN6KHXcBtbTtsIFao84cgjrb9fAjmFAF14cPutEAeO1OpIA"
-MODEL        = "gemini-2.5-flash"
+GROQ_API_KEY = "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"
+GROQ_MODEL   = "openai/gpt-oss-120b"
 
 
 def complete(system: str, user: str, max_tokens: int = 1024) -> str:
     payload = json.dumps({
-        "model":      MODEL,
+        "model":      GROQ_MODEL,      # ← fixed (was MODEL)
         "max_tokens": max_tokens,
         "messages": [
             {"role": "system", "content": system},
@@ -46,5 +46,5 @@ def complete(system: str, user: str, max_tokens: int = 1024) -> str:
 
 def is_available() -> tuple[bool, str]:
     if GROQ_API_KEY == "YOUR_GROQ_API_KEY_HERE":
-        return False, "Paste your Groq API key in llm_client.py (get free key at console.groq.com)"
-    return True, f"Groq ready — model: {MODEL}"
+        return False, "Paste your Groq API key in llm_client.py"
+    return True, f"Groq ready — model: {GROQ_MODEL}"   # ← fixed
