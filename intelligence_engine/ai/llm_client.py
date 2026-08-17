@@ -7,7 +7,7 @@ import json
 import urllib.request
 import urllib.error
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL   = "openai/gpt-oss-120b"
 
 
